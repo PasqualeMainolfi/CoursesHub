@@ -33,7 +33,7 @@ What is Homebrew? Homebrew is a package manager for macOS that allows you to eas
 1. Open the terminal
 2. Paste the following command and press <Enter>:
 
-```
+```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
@@ -48,13 +48,13 @@ If you're new to Conda, here's a quick guide to get started:
     - by following the official documentation for your operating system: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html#.
     - or, open the terminal and install conda via brew:  
 
-    ```
+    ```shell
     brew install --cask miniconda
     ```
 
 2. Create a new Conda environment for the "Course Name" course 
 
-```bash
+```shell
 conda activate
 conda create -n [env_name] python=3.10
 ```
@@ -62,7 +62,7 @@ conda create -n [env_name] python=3.10
 3. Activate the created environment to start working on the course materials: `conda activate course-environment`.
 4. Install additional course-specific packages and dependencies.
 
-```bash
+```shell
 conda activate [env_name]
 
 pip install numpy matplotlib pandas pyaudio librosa mido python-rtmidi python-osc
@@ -70,7 +70,7 @@ pip install numpy matplotlib pandas pyaudio librosa mido python-rtmidi python-os
 
 On MacOS you may need to install:  
 
-```bash
+```shell
 brew install ffmpeg
 brew install pkg-config
 brew install portmidi
@@ -87,14 +87,14 @@ Please visit https://github.com/csound/csound
     - Open the terminal
     - Install CSound:
       - via brew
-      ```
+      ```shell
       brew install csound --HEAD
       ```
       - or from https://github.com/csound/csound/releases/tag/6.18.1  
     
     To check if the installation was successful, you can run the following command in your terminal or command prompt:
 
-    ```
+    ```shell
     csound -v
     ```
     This command will display the version information of Csound installed on your system. If Csound is properly installed and configured, you should see the version number and other relevant details.
