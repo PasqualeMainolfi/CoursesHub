@@ -4,7 +4,7 @@
 |:-------------------------|:----|  
 |**Duration of the course**|30h  |
 |**Study hours**           |150h |
-|**CFA**                   |6    |
+|**CFA**                   |5    |
 |**Exam**                  |Exam. Evaluation and discussion during the exam of a project chosen by the student from a series of tracks, with varying levels of difficulty, proposed by the instructor.|
 |                          |     |
 

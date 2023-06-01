@@ -4,7 +4,7 @@
 |:-------------------------|:----|  
 |**Duration of the course**|30h  |
 |**Study hours**           |150h |
-|**CFA**                   |6    |
+|**CFA**                   |5    |
 |**Exam**                  |Eligibility test. The test consists of completing a project chosen by the student from a series of tracks, with varying levels of difficulty, proposed by the instructor|
 |                          |     |
 
