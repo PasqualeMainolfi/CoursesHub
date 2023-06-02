@@ -23,7 +23,7 @@
 - Optimization of Neural Network Parameters  
 
 > **Module 3**  
-- Tools and Frameworks for Implementing Neural Networks in Python  
+- Tools and frameworks for implementing neural networks in Python  
 - Introduction and Usage of TensorFlow  
 
 

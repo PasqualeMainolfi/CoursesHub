@@ -6,6 +6,7 @@ Here you will find comprehensive and up-to-date educational materials for my cou
 
 ## **Contacts**  
 
-If you have any questions or need support, feel free to contact me!  
+If you have any questions or doubts, please check the FAQ section first!  
+If the FAQ section did not provide you with the help you need, feel free to contact me!  
 Prof. Pasquale Mainolfi  
 pasquale.mainolfi@consalerno.it
