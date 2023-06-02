@@ -3,7 +3,8 @@
 Welcome to the "*Sampling, Synthesis, and Digital Sound Processing*" courses!  
 This repository contains all the necessary resources for the course, including lecture notes, assignments, and additional materials.
 
-**Course Objectives**  
+> **Course Objectives**  
+
 The course objectives aim to provide students with a solid foundation of knowledge in the field of sampling, synthesis, and digital sound processing, as well as the ability to use programming languages to implement audio algorithms and develop practical projects in the field of digital audio. Students will acquire theoretical and practical tools to conduct detailed analysis of audio signals, enabling them to deeply understand the acoustic characteristics of sounds. They will learn to develop scientific communication skills through the study of relevant articles and will be encouraged to write documents to present and share the results of their research.  
 Furthermore, the course will offer students an in-depth overview of the potentials and challenges of artificial intelligence (AI) in the field of digital audio. Students will gain knowledge about neural networks and machine learning techniques applied to audio synthesis and manipulation. They will be guided in exploring the multiple applications of AI in sound art and scientific research.  
 Through practical projects, students will have the opportunity to experiment with and demonstrate the application of AI techniques in the field of digital audio. They will be encouraged to develop innovative artistic projects that leverage the potentials of AI. At the same time, they will be encouraged to conduct scientific research in the field of digital audio, applying AI techniques for advanced analysis, source separation, or the generation of new algorithms.  
@@ -41,6 +42,28 @@ Specifically:
     - Understand the basic concepts of artificial intelligence applied to the field of digital audio.
     - Learn to use AI frameworks and libraries such as TensorFlow or PyTorch for audio synthesis and manipulation.
     - Explore the potentials of Evolutionary Algorithms (Genetic Algorithms, Swarm Intelligence, etc.) applied to parameter optimization in synthesis, generation, and manipulation of audio signals.
+
+
+> **References**
+
+- **Nierhaus G.**, Algorithmic Composition, Paradigms of Automated Music Generation, Springer 2009  
+- **Roads C.**, The computer Music Tutorial, MIT 1996  
+- **Schlichtharle D.**, Digital Filters, Basic and Design 2nd Edition, Springer 2001  
+- **Miranda E. R.**, Computer Sound Design, Synthesis Techniques and Programming, 2002  
+- **De Poli G.**, Introduzione alle tecniche di sintesi della musica con elaboratore  
+- **Puckette M.**, The Theory and Technique of Electronic Music, 2007  
+- **Loy G.**, Musimathics vol. 1 e 2, MIT    
+- **Boulanger R.**, The Csound Book, MIT 2000  
+- **Huang X., Acero, A. Hon H. W.**, Spoken Language Processing, 2001  
+- **Zavalishin V.**, The art of VA filter design, 2018  
+- **Downay A. B.**, Think DSP, Digital Signal Processing in Python, GTP 2014  
+- **Lazzarini V.**, Yi S., Ffitch J., Heintz J. Brandtsegg O. McCurdy I., Csound, A Sound and Music Computing System, Springer 2016  
+- **Zolder U.**, DAFX: Digital Audio Effects 2nd Edition, Wiley 2011  
+- **Sweigart A.**, Automate The Boring Stuff with Python 2nd Edition, 2020  
+- **Xenakis I.**, Formalized Music, Thought and Matematics in composition, 1992  
+- **Rocchesso D.**, Introduction to Sound Processing, 2003  
+- **Petrarca S.**, Matematica per la musica e il suono, Aracne 2010  
+
 
 
 
