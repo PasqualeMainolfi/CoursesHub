@@ -1,11 +1,12 @@
-# **Sampling Synthesis and Digital Sound Processing 1st Year**  
+# **Sampling Synthesis and Digital Sound Processing 1st Year (Bachelor)**  
 
 |                          |     |
 |:-------------------------|:----|  
 |**Duration of the course**|30h  |
 |**Study hours**           |150h |
 |**CFA**                   |5    |
-|**Exam**                  |Eligibility test. The eligibility test will consist of the evaluation of a project chosen by the student from a series of projects proposed by the instructor, which have different levels of difficulty. The evaluation of the project will be conducted based on predefined criteria, such as the originality of the work, the depth of analysis, the quality of implementation, and the correctness of the results obtained. Finally, based on the evaluation of the project, a judgment of eligibility or non-eligibility will be formulated for the student. The merits of the work done, the ability to understand and apply the theoretical concepts learned during the course, will be taken into consideration. It should be emphasized that the test will be conducted rigorously, objectively, and impartially, with the aim of evaluating the skills and abilities acquired by the student.|
+|**Prerequisites**         |NO   |
+|**Evaluation**                  |Eligibility test. The eligibility test will consist of the evaluation of a project chosen by the student from a series of projects proposed by the instructor, which have different levels of difficulty. The evaluation of the project will be conducted based on predefined criteria, such as the originality of the work, the depth of analysis, the quality of implementation, and the correctness of the results obtained. Finally, based on the evaluation of the project, a judgment of eligibility or non-eligibility will be formulated for the student. The merits of the work done, the ability to understand and apply the theoretical concepts learned during the course, will be taken into consideration. It should be emphasized that the test will be conducted rigorously, objectively, and impartially, with the aim of evaluating the skills and abilities acquired by the student.|
 |                          |     |
 
 
