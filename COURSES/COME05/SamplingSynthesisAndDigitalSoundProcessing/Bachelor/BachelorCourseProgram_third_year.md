@@ -1,4 +1,4 @@
-# **Sampling Synthesis and Digital Sound Processing 3rd Year (Bachelor)**  
+# **Sampling, Synthesis and Digital Sound Processing 3rd Year (Bachelor)**  
 
 |                          |     |
 |:-------------------------|:----|  
@@ -11,8 +11,7 @@
 
 
 > **Module 1** 
-- Introduction to wavetable synthesis and manipulation  
-- Sampling and recording techniques for wavetable creation  
+- Introduction to wavetable synthesis  
 - Interpolation techniques for smooth transitions between wavetables  
 - Parameter control for wavetable manipulation  
 - Wavetable oscillators for complex sound synthesis  
@@ -24,15 +23,15 @@
 
 > **Module 3**
 - Physical Modeling  
-- Operation of acoustic systems, resonance, and introduction to mass-spring-damper systems  
-- Theory of major physical modeling synthesis techniques  
+- Acoustic systems, resonance, and introduction to mass-spring-damper systems  
+- Theory of main physical modeling synthesis techniques  
 - Study of string modeling using the Karplus-Strong algorithm  
 
 > **Lab**
 - Use CSound as a programming environment for sound synthesis  
 - Integrate Python with CSound for analysis, data processing, user interface management, and event generation automation  
 - Implementation of key techniques for wavetable creation and manipulation  
-- Application and exploration of major spectral synthesis techniques  
+- Application and exploration of main spectral synthesis techniques  
 - Utilization of convolution for signal manipulation  
 - Implementation of an extended model of the Karplus-Strong algorithm  
 

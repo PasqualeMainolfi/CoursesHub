@@ -1,4 +1,4 @@
-# **Sampling Synthesis and Digital Sound Processing 2nd Year (Bachelor)**  
+# **Sampling, Synthesis and Digital Sound Processing 2nd Year (Bachelor)**  
 
 |                          |     |
 |:-------------------------|:----|  
@@ -13,7 +13,7 @@
 > **Module 1**
 - Definition and concept of control signals  
 - Characteristics, operation, and usage of LFOs (Low-Frequency Oscillators)  
-- Envelope generators and methodologies for synthesis and manipulation of signals  
+- Envelope generators and their use in synthesis and manipulation of sound signals
 
 > **Module 2**
 - Introduction to N-channel spatialization  
@@ -21,7 +21,8 @@
 - DBAP (Distance-Based Amplitude Panning)  
 
 > **Module 3**
-- Delays Network  
+- Circular buffer delay
+- Delays Network
 - Study and implementation of delays network for constructing reverb, echo, etc.  
 - Comb filter and allpass filter  
 - Digital reverberation based on Schroeder, Chowning, and Dattorro models  
@@ -54,5 +55,7 @@
 >- **Smith III, J. O.**, Spectral audio signal processing.  
 >- **Dattorro, J.**, Effect design, part 1: Reverberator and other filters. Journal of the Audio Engineering Society, 45(9), 660-684, 1997.  
 >- **Gabor, D.**, Theory of Communication. Journal of the Institution of Electrical Engineers - Part III: Radio and Communication Engineering, Vol. 93, No. 26, pp. 429-457, 1946.  
+>- **Roads, C.**, Introduction to granular synthesis. Computer Music Journal, 12(2), 11-13, 1998.
+>- **Roads, C.**, Microsound, MIT 2001.
 >- **Di Scipio, A.**, I quanta acustici di Gabor nelle tecnologie del suono e della musica. Musica/Tecnologia, 17-42, 2016.  
 >---

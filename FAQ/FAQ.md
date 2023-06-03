@@ -2,7 +2,7 @@
 
 1. *What study materials is recommended for the course?*
 
-   A: You can simply search for the course code you will be attending on the main page [README](/README.md) under the *Courses* section and click on SYLLABUS. Here you will find all the information.
+   A: You can simply search for the course code you will be attending on the main page [HOME](/HOME.md) under the *Courses* section and click on SYLLABUS. Here you will find all the information.
 
 2. *How can I contact the instructor for questions or clarifications?*
 
@@ -14,7 +14,7 @@
 
 4. *How will students be evaluated at the end of the course?*
 
-   A: It depends. You can find this information in your study plan by checking if the course is associated with an "exam" or "elegibility" label. You will then find all the evaluation details in the SYLLABUS tab on the main page [(README)](/README.md).
+   A: It depends. You can find this information in your study plan by checking if the course is associated with an "exam" or "elegibility" label. You will then find all the evaluation details in the SYLLABUS tab on the main page [(HOME)](/HOME.md).
 
 5. *What are the dates and times for the exam sessions?*
 
@@ -26,7 +26,7 @@
 
 7. *How can I access online teaching resources, such as presentations or handouts?*
 
-   A: You can find all the necessary teaching material in the *Lecture Notes* section on the main page [(README)](/README.md).
+   A: You can find all the necessary teaching material in the *Lecture Notes* section on the main page [(HOME)](/HOME.md).
 
 8. *What is the policy regarding extraordinary exam sessions?*
 
@@ -34,7 +34,7 @@
 
 9. *What is the procedure to request a thesis with me as the supervisor?*
 
-   A: You can find all the information under the *Thesis: Procedures and Guidelines* section on the main page [(README)](/README.md).
+   A: You can find all the information under the *Thesis: Procedures and Guidelines* section on the main page [(HOME)](/HOME.md).
 
 10. *What are the selection criteria for students who want to pursue a thesis with me?*
 

@@ -1,4 +1,4 @@
-# **Sampling Synthesis and Digital Sound Processing 1st Year (Bachelor)**  
+# **Sampling, Synthesis and Digital Sound Processing 1st Year (Bachelor)**  
 
 |                          |     |
 |:-------------------------|:----|  
@@ -33,8 +33,8 @@
 - Envelope generators and low-frequency control oscillators  
 - Utilization of FT for spectral analysis and synthesis  
 - Generation of classic waveforms: square, triangle, and sawtooth  
-- Additive synthesis and timbre control through component manipulation: major algorithms, pros, and cons  
-- Key algorithms for additive synthesis  
+- Additive synthesis and timbre control through component manipulation: algorithms, pros, and cons  
+- Main algorithms for additive synthesis
 - Fourier series development  
 
 > **Module 4** 
@@ -49,9 +49,8 @@
 > **Module 5**
 - Introduction to sound spatialization  
 - Fundamental concepts of sound perception  
-- Coordinate system for virtual space control in two dimensions  
-- Two-channel panning algorithms  
-- Stereo panning of virtual space: balancing between right and left channels to create spatial perception  
+- Coordinate system for virtual space control in 2D  
+- Two-channel panning algorithms balancing between right and left channels to create spatial perception  
 - Linear and Constant Power Panning Function  
 
 > **Lab**
