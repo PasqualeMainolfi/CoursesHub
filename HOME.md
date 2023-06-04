@@ -2,7 +2,7 @@
 
 
 👋 Welcome to my computer music courses repo!  
-Here you will find comprehensive and up-to-date educational materials for my courses. The repository is organized in a structured manner, with folders containing subfolders for each course. Additionally, you will also find syllabus, objectives, topics covered, and schedule for each course.
+Here you will find comprehensive and up-to-date educational materials for my courses.
 
 
 **...before we move forward, if you're going to be taking one of my courses, I'd kindly ask you to join the Telegram channel `@PasqualeMainolfi`. I'll be using this channel for quick updates and communication. It's a great way to stay connected!**

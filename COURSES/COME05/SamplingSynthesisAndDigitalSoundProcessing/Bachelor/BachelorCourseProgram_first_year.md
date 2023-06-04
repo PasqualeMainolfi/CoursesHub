@@ -8,7 +8,7 @@
 |**Study hours**           |150h |
 |**CFA**                   |5    |
 |**Prerequisites**         |NO   |
-|**Evaluation**                  |Eligibility test. The eligibility test will consist of the evaluation of a project chosen by the student from a series of projects proposed by the instructor, which have different levels of difficulty. The evaluation of the project will be conducted based on predefined criteria, such as the originality of the work, the depth of analysis, the quality of implementation, and the correctness of the results obtained. Finally, based on the evaluation of the project, a judgment of eligibility or non-eligibility will be formulated for the student. The merits of the work done, the ability to understand and apply the theoretical concepts learned during the course, will be taken into consideration. It should be emphasized that the test will be conducted rigorously, objectively, and impartially, with the aim of evaluating the skills and abilities acquired by the student.|
+|**Evaluation**                  |Eligibility test. Checking out a project chosen by the student from a bunch of projects suggested by the instructor, which come in different levels of difficulty. The project assessment will consider factors such as originality, depth of analysis, quality of implementation, and accuracy of results. Based on this evaluation, a judgment of eligibility or non-eligibility will be determined for the student. The assessment will also take into account the student's ability to understand and apply the theoretical concepts covered in the course. It's important to note that the test will be conducted fairly and objectively, solely aimed at evaluating the student's skills and abilities.|
 |                          |     |
 
 

@@ -39,7 +39,7 @@ Specifically:
    - Create multimedia projects that leverage the MIDI protocol and OSC to control sounds, lights, or other interactive elements.
 
 6. Create interactive and innovative multimedia projects, integrating different programming languages and AI techniques learned during the course:
-   - Develop multimedia projects that combine interactivity, graphics, sound, and artificial intelligence.
+   - Develop multimedia projects that combine interactivity, graphics, sound, artificial intelligence, and sensor technologies.
    - Utilize programming languages and techniques learned to create engaging and innovative multimedia experiences.
    - Explore creative approaches and experimentation to create unique multimedia projects.
 
@@ -70,9 +70,9 @@ To participate in this course, in addition to a personal computer with sufficien
 - Programming Languages and Libraries
   - [Python](#python)
   - [Java](#java)
-  - [Processing]()
-  - [JavaScript]()
-  - [p5.js]()
+  - [Processing](#processing)
+  - [JavaScript](#javascript)
+  - [p5.js](#p5js)
   - [CSound](#csound-and-cabbage-studio)
 
 - Virtual Enviroment Manager
@@ -131,6 +131,12 @@ conda activate [env_name]
 pip install numpy matplotlib mido python-rtmidi python-osc
 pip install opencv-python mediapipe
 ```  
+MediaPipe, OpenCV? 
+ 
+MediaPipe is a cool open-source framework developed by Google for building multimedia applications that work with data streams. It's got a wide range of features for processing images, videos, and audio, so developers can create interactive and smart applications. In this module, we'll dive into the different components of MediaPipe and learn how to use them for processing multimedia data, including the important tracking feature.  
+
+OpenCV, the Open Source Computer Vision Library, is a powerful and widely-used open-source library for computer vision and image processing tasks. With its extensive collection of algorithms and functions, OpenCV empowers developers to harness the power of computer vision technology in their applications. From basic image manipulation to complex object detection and recognition, OpenCV provides the tools and resources needed to unlock the potential of visual data. Whether you're a beginner or an expert, OpenCV is your go-to companion for all things related to computer vision. Get ready to embark on an exciting journey into the world of visual intelligence with OpenCV!
+
 on Apple-Silicon:
 ```shell
 pip install opencv-python mediapipe-silicon

@@ -8,7 +8,7 @@
 |**Study hours**           |150h |
 |**CFA**                   |5    |
 |**Prerequisites**         |SSDSP 1 (Master) |
-|**Evaluation**                  |Exam. The exam will consist of the evaluation and discussion of a project chosen by the student and agreed upon with the instructor. The evaluation of the project will be conducted based on predefined criteria, such as the originality of the work, the depth of analysis, the quality of implementation, and the correctness of the results obtained. Finally, based on the evaluation of the project, a judgment of eligibility or non-eligibility will be formulated for the student. The merits of the work done, the ability to understand and apply the theoretical concepts learned during the course, will be taken into consideration. It should be emphasized that the test will be conducted rigorously, objectively, and impartially, with the aim of evaluating the skills and abilities acquired by the student.|
+|**Evaluation**                  |Exam. Checking out and talking about a project chosen by the student and approved by the teacher, based on the stuff we've been learning in class. The project will be assessed based on specific criteria, such as originality, depth of analysis, implementation quality, and correctness of the results. At the end of the evaluation, the student will receive a judgment of eligibility or non-eligibility. The assessment will consider the quality of the work, the student's understanding and application of the theoretical concepts learned in the course. It's important to note that the exam will be conducted rigorously, objectively, and impartially, solely for the purpose of evaluating the student's acquired skills and abilities.|
 |                          |     |
 
 
