@@ -1,5 +1,7 @@
 # **FAQ**  
 
+[**⬅️ BACK HOME**](/HOME.md)  
+
 1. *What study materials is recommended for the course?*
 
    A: You can simply search for the course code you will be attending on the main page [HOME](/HOME.md) under the *Courses* section and click on SYLLABUS. Here you will find all the information.

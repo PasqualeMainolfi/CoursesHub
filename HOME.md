@@ -22,8 +22,8 @@ Here you will find comprehensive and up-to-date educational materials for my cou
       - [SSDSP 1](/COURSES/COME05/SamplingSynthesisAndDigitalSoundProcessing/Master/MasterCourseProgram_first_year.md)
       - [SSDSP 2](/COURSES/COME05/SamplingSynthesisAndDigitalSoundProcessing/Master/MasterCourseProgram_second_year.md)
 
-  - MNW Music Notation Writing [(MNW Syllabus)](/COURSES/COME05/MusicNotationWriting/SYLLABUS_AND_TOOLS.md)
-    - [MNW (single year)](/COURSES/COME05/MusicNotationWriting/CourseProgram_single_year.md)
+  - DMN Digital Music Notation [(DMN Syllabus)](/COURSES/COME05/DigitalMusicNotation/SYLLABUS_AND_TOOLS.md)
+    - [DMN (single year)](/COURSES/COME05/DigitalMusicNotation/CourseProgram_single_year.md)
 
 - **COME/06**
 
