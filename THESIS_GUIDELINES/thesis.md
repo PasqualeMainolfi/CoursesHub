@@ -3,6 +3,13 @@
 [**⬅️ BACK HOME**](/HOME.md)  
 
 
+>**FIRST...**  
+
+What I strongly consider when selecting students who request to do their thesis with me is that the proposed work is closely related to my field of expertise. It is essential that students undertake research within my field of specialization, as this allows me to provide them with the guidance, support, and experience needed throughout the thesis process. It is crucial that their thesis proposal reflects an understanding and application of the concepts, theories, and practical skills covered in my courses. This coherence ensures a cohesive and meaningful learning experience for both the student and me as the supervisor.  
+I also place particular emphasis on experimental work, where students take risks and actively seek to bring about significant changes. Specifically, I encourage students to explore new ideas, methods, and innovative approaches in their thesis work. I believe that experimentation provides valuable opportunities for students to gain a deeper understanding of the subject matter and develop practical skills. It is through this process that students can cultivate their creativity, adaptability, and problem-solving abilities. Additionally, experimental work offers the opportunity to actively contribute to the advancement of the field of study and make a significant impact within the discipline.  
+Lastly, time. A thesis requires an adequate amount of time, and I don't believe that approaching things hastily is the best approach.
+
+
 > **Compilation or Curriculum Thesis (Bachelor and Master)**  
 
 Presentation and discussion of a synthesis work resulting from a thorough analysis of a substantial collection of sources and bibliography. Specifically, it should be a work that summarizes the studies already conducted on the agreed-upon topic with the instructor in a reasonable timeframe (minimum 3 months, maximum 6 months), presented in a coherent manner through proper analysis, leading to a logical and personal re-elaboration of the subject matter.
