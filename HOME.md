@@ -23,7 +23,7 @@ Here you will find comprehensive and up-to-date educational materials for my cou
       - [SSDSP 2](/COURSES/COME05/SamplingSynthesisAndDigitalSoundProcessing/Master/MasterCourseProgram_second_year.md)
 
   - MNW Music Notation Writing [(MNW Syllabus)](/COURSES/COME05/MusicNotationWriting/SYLLABUS_AND_TOOLS.md)
-    - [MNW (single course)](/COURSES/COME05/MusicNotationWriting/CourseProgram_single_year.md)
+    - [MNW (single year)](/COURSES/COME05/MusicNotationWriting/CourseProgram_single_year.md)
 
 - **COME/06**
 
@@ -55,7 +55,7 @@ You can find the procedure and guidelines [here](/THESIS_GUIDELINES/thesis.md).
 ---
 
 You can view the lesson schedule/calendar by clicking on the academic year of the course you are interested in:
-- [2022/23]()
+- [2022/23](/CLASS_CALENDAR/CALENDAR.md)
 
 **Please note that the lessons may be subject to changes. Any modifications will be communicated via Telegram and/or email.**
 
