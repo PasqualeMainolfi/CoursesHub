@@ -63,12 +63,14 @@ Specifically:
 - **Sweigart A.**, Automate The Boring Stuff with Python 2nd Edition, 2020  
 - **Xenakis I.**, Formalized Music, Thought and Matematics in composition, 1992  
 - **Rocchesso D.**, Introduction to Sound Processing, 2003  
-- **Petrarca S.**, Matematica per la musica e il suono, Aracne 2010  
+- **Petrarca S.**, Matematica per la musica e il suono, Aracne 2010 
+- **Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C.**, Introduction to algorithms. MIT press. 2022
+- **Lazzarini, V., Yi, S., Heintz, J., Brandtsegg, Ø., & McCurdy, I.**, Csound: A sound and music computing system. Springer 2016 
 
 
 > **Required Software and Tools**
 
-To participate in this course, it is necessary to install:
+To participate in this course, in addition to a personal computer with sufficient processing power and memory to run programming software, you will need the following tools:  
 
 - Programming Languages
   - [Python](#python)

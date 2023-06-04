@@ -8,7 +8,7 @@
 |**Study hours**           |95h  |
 |**CFA**                   |5    |
 |**Prerequisites**         |NO   |
-|**Evaluation**                  |Eligibility test. |
+|**Evaluation**            |Eligibility test. |
 |                          |     |
 
 
