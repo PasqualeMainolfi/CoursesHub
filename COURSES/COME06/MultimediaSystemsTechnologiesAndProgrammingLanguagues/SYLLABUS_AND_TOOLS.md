@@ -1,12 +1,12 @@
-# **Systems, Technologies, Applications and Programming Languages for Multimedia (COME/06)** 
+# **Multimedia Systems, Technologies and Programming Languagues (COME/06)** 
 
 [**⬅️ BACK HOME**](/HOME.md)  
 
-Welcome to the "*Systems, Technologies, Applications and Programming Languages for Multimedia*" course!  
+Welcome to the "*Multimedia Systems, Technologies and Programming Languagues*" course!  
 
 > **Course Objectives**  
 
-The Systems, Applications, and Programming Languages for Multimedia course is designed to give students a solid foundation of knowledge and skills in the field of multimedia development. Through exploring programming languages like Java, Processing, JavaScript, p5.js, and Python, students will have the chance to learn the practical skills needed to create interactive and innovative multimedia applications.  
+The Multimedia Systems, Technologies and Programming Languagues course is designed to give students a solid foundation of knowledge and skills in the field of multimedia development. Through exploring programming languages like Java, Processing, JavaScript, p5.js, and Python, students will have the chance to learn the practical skills needed to create interactive and innovative multimedia applications.  
 Another crucial aspect that will be covered in the course is the application of artificial intelligence techniques in the multimedia context. Students will have the opportunity to dive into machine learning algorithms and computer vision to create intelligent multimedia applications.  
 Throughout the course, fundamental concepts such as the MIDI protocol and Open Sound Control (OSC) in the multimedia context will also be explored. These protocols are widely used for communication and control of devices for sound synthesis and other purposes.  
 By the end of the course, students will be able to develop sophisticated multimedia applications, integrating different technologies and programming languages. They will also have a solid understanding of design principles and optimization for multimedia system performance, ensuring efficient use of hardware and software resources.  
@@ -158,7 +158,10 @@ Python is a versatile and popular programming language known for its simplicity 
 We will install Python in the virtual environment created via Conda.  
 
 ```shell
+conda activate
 conda create -n [env_name] python=3.10
+conda activate [env_name]
+pip install numpy ffmpeg flask
 ```
 However, it is also possible to install Python on the main system 
 - from the webpage https://www.python.org/

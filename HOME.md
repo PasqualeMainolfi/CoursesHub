@@ -27,19 +27,19 @@ Here you will find comprehensive and up-to-date educational materials for my cou
 
 - **COME/06**
 
-  - STAPLM Systems, Technologies, Applications and Programming Languages for Multimedia [(STAPLM Syllabus)](/COURSES/COME06/SystemsTechnologiesApplicationsProgrammingLanguagesForMultimedia/SYLLABUS_AND_TOOLS.md) 
+  - MSTPL Multimedia Systems, Technologies and Programming Languagues [(MSTPL Syllabus)](/COURSES/COME06/MultimediaSystemsTechnologiesAndProgrammingLanguagues/SYLLABUS_AND_TOOLS.md) 
     - Bachelor Degree 
-      - [STAPLM 1](/COURSES/COME06/SystemsTechnologiesApplicationsProgrammingLanguagesForMultimedia/Bachelor/BachelorCourseProgram_first_year.md)
-      - [STAPLM 2](/COURSES/COME06/SystemsTechnologiesApplicationsProgrammingLanguagesForMultimedia/Bachelor/BachelorCourseProgram_second_year.md)
-      - [STAPLM 3](/COURSES/COME06/SystemsTechnologiesApplicationsProgrammingLanguagesForMultimedia/Bachelor/BachelorCourseProgram_third_year.md)
+      - [MSTPL 1](/COURSES/COME06/MultimediaSystemsTechnologiesAndProgrammingLanguagues/Bachelor/BachelorCourseProgram_first_year.md)
+      - [MSTPL 2](/COURSES/COME06/MultimediaSystemsTechnologiesAndProgrammingLanguagues/Bachelor/BachelorCourseProgram_second_year.md)
+      - [MSTPL 3](/COURSES/COME06/MultimediaSystemsTechnologiesAndProgrammingLanguagues/Bachelor/BachelorCourseProgram_third_year.md)
     - Master Degree
-      - [STAPLM 1](/COURSES/COME06/SystemsTechnologiesApplicationsProgrammingLanguagesForMultimedia/Master/MasterCourseProgram_first_year.md)
-      - [STAPLM 2](/COURSES/COME06/SystemsTechnologiesApplicationsProgrammingLanguagesForMultimedia/Master/MasterCourseProgram_second_year.md)
+      - [MSTPL 1](/COURSES/COME06/MultimediaSystemsTechnologiesAndProgrammingLanguagues/Master/MasterCourseProgram_first_year.md)
+      - [MSTPL 2](/COURSES/COME06/MultimediaSystemsTechnologiesAndProgrammingLanguagues/Master/MasterCourseProgram_second_year.md)
   
-  - STAAPIMCS Systems, Technologies, Applications And Audio Programming for Internet and Mobile Communications Systems [(STAAPIMCS Syllabus)](/COURSES/COME06/SystemsTechnologiesApplicationsAndAudioProgrammingForInternetAndMobileCommunicationSystems/SYLLABUS_AND_TOOLS.md)
+  - AMIPIMC Audio and Music Information Processing for the Internet and Mobile Communication [(AMIPIMC Syllabus)](/COURSES/COME06/AudioAndMusicInformationProcessingForTheInternetAndMobilCommunication/SYLLABUS_AND_TOOLS.md)
     - Master Degree
-      - [STAAPIMCS 1](/COURSES/COME06/SystemsTechnologiesApplicationsAndAudioProgrammingForInternetAndMobileCommunicationSystems/Master/MasterCourseProgram_first_year.md)
-      - [STAAPIMCS 2](/COURSES/COME06/SystemsTechnologiesApplicationsAndAudioProgrammingForInternetAndMobileCommunicationSystems/Master/MasterCourseProgram_second_year.md)
+      - [AMIPIMC 1](/COURSES/COME06/AudioAndMusicInformationProcessingForTheInternetAndMobilCommunication/Master/MasterCourseProgram_first_year.md)
+      - [AMIPIMC 2](/COURSES/COME06/AudioAndMusicInformationProcessingForTheInternetAndMobilCommunication/Master/MasterCourseProgram_second_year.md)
 
 ## **Lecture Notes**  
 ---

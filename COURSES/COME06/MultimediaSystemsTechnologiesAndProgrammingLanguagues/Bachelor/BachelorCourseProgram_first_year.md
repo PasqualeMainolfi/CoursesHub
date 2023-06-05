@@ -1,4 +1,4 @@
-# **Systems, Technologies, Applications and Programming Languages for Multimedia 1st Year (Bachelor)**  
+# **Multimedia Systems, Technologies and Programming Languagues 1st Year (Bachelor)**  
 
 [**⬅️ BACK HOME**](/HOME.md)  
 

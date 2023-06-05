@@ -156,7 +156,10 @@ Python is a versatile and popular programming language known for its simplicity 
 We will install Python in the virtual environment created via Conda.  
 
 ```shell
+conda activate
 conda create -n [env_name] python=3.10
+conda activate [env_name]
+pip install numpy ffmpeg flask
 ```
 However, it is also possible to install Python on the main system 
 - from the webpage https://www.python.org/

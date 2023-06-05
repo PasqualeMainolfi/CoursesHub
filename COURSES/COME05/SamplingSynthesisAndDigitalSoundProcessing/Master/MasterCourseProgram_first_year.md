@@ -7,7 +7,7 @@
 |**Duration of the course**|30h  |
 |**Study hours**           |150h |
 |**CFA**                   |5    |
-|**Prerequisites**         |Bachelor Degree |
+|**Prerequisites**         |Bachelor Degree<br> Basic knowledge of Python<br>Good knowledge of CSound Language |
 |**Evaluation**                  |Eligibility test. Checking out a project picked by the student and agreed upon with the teacher based on the topics covered in the course. The project assessment will consider factors such as originality, depth of analysis, quality of implementation, and accuracy of results. Based on this evaluation, a judgment of eligibility or non-eligibility will be determined for the student. The assessment will also take into account the student's ability to understand and apply the theoretical concepts covered in the course. It's important to note that the test will be conducted fairly and objectively, solely aimed at evaluating the student's skills and abilities.|
 |                          |     |
 
