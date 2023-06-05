@@ -2,7 +2,7 @@
 
 |||
 | :--------- | :--------- |
-| **Difficulty** | Intermediate |
+| **Difficulty** | Low |
 | **Maximum number of partecipants**| 2 |
 | **Maximum score**| 18 |
 | **Bonus** | 7 |
