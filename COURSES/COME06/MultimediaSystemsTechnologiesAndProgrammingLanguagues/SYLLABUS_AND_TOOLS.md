@@ -61,7 +61,10 @@ Specifically:
 - **Beck, J.**, Designing Sound: Audiovisual Aesthetics in 1970s American Cinema. Rutgers University Press 2016
 - **Bohnacker H., Gross B., Laub J.**, Generative Gestaltung: Creative Coding im Web, VHS 2018
 
+> **Educational method**  
 
+The adopted teaching method follows a rigorous structure that includes a theoretical component and a laboratory component. The theoretical part of the lessons is dedicated to a clear and systematic exposition of the fundamental concepts of the subject. Through detailed explanations, relevant examples, and visual illustrations, the aim is to provide students with a deep understanding of the theoretical principles underlying the discipline.  
+The laboratory part, on the other hand, constitutes an essential element for consolidating the acquired theoretical knowledge. During these sessions, students have the opportunity to directly apply what they have learned by tackling concrete problems and developing practical skills. Through interactive activities, programming exercises, practical projects, and simulations, students gain familiarity with operational procedures and develop the necessary skills to independently solve problems.  
 
 > **Required Software and Tools**
 
