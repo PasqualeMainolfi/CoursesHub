@@ -8,7 +8,7 @@
 |**Study hours**           |80h |
 |**CFA**                   |4    |
 |**Prerequisites**         |MSTPL 2 (Bachelor)<br>SSDSP 2 (Bachelor)|
-|**Evaluation**            |Exam. Checking out and talking about a project picked by the student from a bunch of projects given by the teacher, which have different levels of difficulty. The student will present their chosen project, providing a detailed description of their work, the methods used, and the results obtained. During this phase, the evaluation committee will have the opportunity to ask questions and seek further clarification about the project. The project evaluation will be based on specific criteria, including originality, depth of analysis, implementation quality, and accuracy of results. The committee will also consider the student's ability to explain and defend their work in a clear and persuasive manner. Ultimately, the committee will formulate a final judgment on the exam based on the project evaluation and discussion. The assessment will consider the merits of the work, the student's grasp of the theoretical concepts covered in the course, and their ability to effectively present and communicate ideas and reasoning. It's important to note that the exam will be conducted rigorously, objectively, and impartially, with the sole purpose of evaluating the student's acquired skills and abilities.|
+|**Evaluation**            |Exam. Evaluation and discussion of a student-selected and implemented verification project from a series of proposals provided by the instructor. The proposals will have different levels of difficulty and will require the application of specific knowledge and skills acquired during the course. The student will present their chosen project, providing a detailed description of their work, the methods used, and the results obtained. During this phase, the evaluation committee will have the opportunity to ask questions and seek further clarification about the project. The project evaluation will be based on specific criteria, including originality, depth of analysis, implementation quality, and accuracy of results. The committee will also consider the student's ability to explain and defend their work in a clear and persuasive manner. Ultimately, the committee will formulate a final judgment on the exam based on the project evaluation and discussion. The assessment will consider the merits of the work, the student's grasp of the theoretical concepts covered in the course, and their ability to effectively present and communicate ideas and reasoning. It's important to note that the exam will be conducted rigorously, objectively, and impartially, with the sole purpose of evaluating the student's acquired skills and abilities.|
 |                          |     |
 
 >**Module 1:**
@@ -33,7 +33,7 @@
 - Using MediaPipe for video processing: motion analysis and temporal tracking
 - Using MediaPipe for real-time tracking of objects, faces, hands, facial expressions, and poses
 
->**Laboratory:**
+>**Lab:**
 - Implementation of practical projects that combine the concepts learned during the course modules
 - Using OpenCV and MediaPipe to develop interactive multimedia applications in Python, JavaScript, and CSound environments.
 

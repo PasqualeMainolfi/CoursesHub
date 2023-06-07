@@ -8,7 +8,7 @@
 |**Study hours**           |95h  |
 |**CFA**                   |5    |
 |**Prerequisites**         |NO   |
-|**Evaluation**            |Eligibility test. Checking out a project chosen by the student from a bunch of projects suggested by the instructor, which come in different levels of difficulty. The project assessment will consider factors such as originality, depth of analysis, quality of implementation, and accuracy of results. Based on this evaluation, a judgment of eligibility or non-eligibility will be determined for the student. The assessment will also take into account the student's ability to understand and apply the theoretical concepts covered in the course. It's important to note that the test will be conducted fairly and objectively, solely aimed at evaluating the student's skills and abilities.|
+|**Evaluation**            |Eligibility test. Evaluation of a student-selected and implemented verification project from a series of proposals provided by the instructor. The proposals will have different levels of difficulty and will require the application of specific knowledge and skills acquired during the course. The project assessment will consider factors such as originality, depth of analysis, quality of implementation, and accuracy of results. Based on this evaluation, a judgment of eligibility or non-eligibility will be determined for the student. The assessment will also take into account the student's ability to understand and apply the theoretical concepts covered in the course. It's important to note that the test will be conducted fairly and objectively, solely aimed at evaluating the student's skills and abilities.|
 |                          |     |
 
 
@@ -37,7 +37,7 @@
 - Introduction to object-oriented programming and code organization using classes, objects, and methods in JavaScript
 - Exploring the features of p5.js for graphic manipulation, animations, interactivity, and user input
 
->**Laboratory:**
+>**Lab:**
 - Getting familiar with the development environment of Java-Processing and JavaScript-p5.js.
 - Experimenting with the creation of interactive animations using the basic programming concepts in Processing.
 - Exploring the features of p5.js for creating multimedia projects on the web.

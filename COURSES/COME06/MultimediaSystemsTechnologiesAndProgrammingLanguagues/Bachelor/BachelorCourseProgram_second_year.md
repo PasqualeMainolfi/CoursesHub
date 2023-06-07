@@ -8,7 +8,7 @@
 |**Study hours**           |100h |
 |**CFA**                   |5    |
 |**Prerequisites**         |MSTPL 1 (Bachelor)<br>SSDSP 1 (Bachelor)|
-|**Evaluation**            |Exam. Checking out and talking about a project picked by the student from a bunch of projects given by the teacher, which have different levels of difficulty. The student will present their chosen project, providing a detailed description of their work, the methods used, and the results obtained. During this phase, the evaluation committee will have the opportunity to ask questions and seek further clarification about the project. The project evaluation will be based on specific criteria, including originality, depth of analysis, implementation quality, and accuracy of results. The committee will also consider the student's ability to explain and defend their work in a clear and persuasive manner. Ultimately, the committee will formulate a final judgment on the exam based on the project evaluation and discussion. The assessment will consider the merits of the work, the student's grasp of the theoretical concepts covered in the course, and their ability to effectively present and communicate ideas and reasoning. It's important to note that the exam will be conducted rigorously, objectively, and impartially, with the sole purpose of evaluating the student's acquired skills and abilities.|
+|**Evaluation**            |Exam. Evaluation and discussion of a student-selected and implemented verification project from a series of proposals provided by the instructor. The proposals will have different levels of difficulty and will require the application of specific knowledge and skills acquired during the course. The student will present their chosen project, providing a detailed description of their work, the methods used, and the results obtained. During this phase, the evaluation committee will have the opportunity to ask questions and seek further clarification about the project. The project evaluation will be based on specific criteria, including originality, depth of analysis, implementation quality, and accuracy of results. The committee will also consider the student's ability to explain and defend their work in a clear and persuasive manner. Ultimately, the committee will formulate a final judgment on the exam based on the project evaluation and discussion. The assessment will consider the merits of the work, the student's grasp of the theoretical concepts covered in the course, and their ability to effectively present and communicate ideas and reasoning. It's important to note that the exam will be conducted rigorously, objectively, and impartially, with the sole purpose of evaluating the student's acquired skills and abilities.|
 |                          |     |
 
 
@@ -36,7 +36,7 @@
 - Using specific libraries to handle MIDI protocol in Python, Java-Processing, and CSound
 - Using specific libraries for OSC communication in Python, Java-Processing, and CSound
 
->**Laboratory:**
+>**Lab:**
 - Using CSound as an environment for generating and controlling audio events
 - Hands-on practice with the concepts learned during the course
 - Developing interactive multimedia projects using Python and/or Java-Processing

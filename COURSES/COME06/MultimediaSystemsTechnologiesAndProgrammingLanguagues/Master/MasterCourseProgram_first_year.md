@@ -8,7 +8,7 @@
 |**Study hours**           |120h |
 |**CFA**                   |6    |
 |**Prerequisites**         |Bachelor Degree<br>Basic knowledge of Python<br>Good knowledge of CSound Language |
-|**Evaluation**            |Exam. Checking out and talking about a project chosen by the student and approved by the teacher, based on the stuff we've been learning in class. The project will be assessed based on specific criteria, such as originality, depth of analysis, implementation quality, and correctness of the results. At the end of the evaluation, the student will receive a judgment of eligibility or non-eligibility. The assessment will consider the quality of the work, the student's understanding and application of the theoretical concepts learned in the course. It's important to note that the exam will be conducted rigorously, objectively, and impartially, solely for the purpose of evaluating the student's acquired skills and abilities.|
+|**Evaluation**            |Exam. Evaluation and discussion of a student-selected and implemented verification project, previously agreed upon with the instructor, on the topics covered during the course. The project will be assessed based on specific criteria, such as originality, depth of analysis, implementation quality, and correctness of the results. At the end of the evaluation, the student will receive a judgment of eligibility or non-eligibility. The assessment will consider the quality of the work, the student's understanding and application of the theoretical concepts learned in the course. It's important to note that the exam will be conducted rigorously, objectively, and impartially, solely for the purpose of evaluating the student's acquired skills and abilities.|
 |**Notes**                 |Given the need to work with sensors, soldering, and other related hardware aspects, this course will have a close collaboration with the Electroacoustics course COME/04. The collaboration will provide students with the opportunity to integrate sound and audio elements into their multimedia projects, thereby enriching the overall experience and enhancing the interdisciplinarity of the course. Joint sessions or workshops will be conducted, allowing students from both courses to collaborate, share knowledge, and explore the integration of sensors, audio components, and other electroacoustic elements in their multimedia works.|
 |||
 
@@ -37,7 +37,7 @@
 - Preparation and organization of multimedia project presentation
 - Considerations for utilization, staging, installation, and/or exhibition of the artwork
 
->**Laboratory:**
+>**Lab:**
 - Identification of specific requirements for a sample project
 - Discussion of potential user-sensor-artwork interactions to be implemented
 - Configuration and programming of the system for data collection from sensors
