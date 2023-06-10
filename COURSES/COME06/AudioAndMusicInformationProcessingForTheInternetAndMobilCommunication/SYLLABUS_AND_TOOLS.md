@@ -7,7 +7,23 @@ Welcome to the "*Audio and Music Information Processing for the Internet and Mob
 
 > **Course Objectives**  
 
-The aim of the course is to study technologies for manipulating audio-video information for the web and mobile systems. Students will gain an understanding of fundamental concepts related to multimedia streaming, explore common audio and video formats, study codecs and compression techniques, learn to utilize FFMPEG, a powerful open-source tool for real-time capture and conversion, and develop customized applications for stream management. Moreover, guidelines will be provided for designing and developing simple custom scripts using FFMPEG to automate conversion and media management processes.  
+🇮🇹 Obiettivo del corso è lo studio delle tecnologie per la manipolazione delle informazioni audio-video per il web e i sistemi mobili. Comprendere i concetti fondamentali legati allo streaming multimediale, esplorare i formati audio e video più comuni, studiare i codec e le tecniche di compressione, imparare ad utilizzare FFMPEG, un potente strumento open-source per la cattura e la conversione in tempo reale, e sviluppare applicazioni personalizzate per la gestione dei flussi. Inoltre, verranno fornite linee guida per la progettazione e lo sviluppo di semplici script personalizzati utilizzando FFMPEG per automatizzare processi di conversione e gestione dei media.  
+Nella parte pratica del corso, gli studenti avranno l'opportunità di mettere in pratica le loro competenze utilizzando i comandi di FFMPEG e sviluppando applicazioni personalizzate. Saranno incoraggiati a utilizzare framework o librerie per creare interfacce utente intuitive.  
+Tutto al fine di fornire agli studenti una solida comprensione dei principi e delle pratiche legate allo streaming audio-video e di come utilizzare FFMPEG come strumento chiave per gestire i flussi multimediali in modo efficiente e professionale.
+
+Nello specifico:  
+
+- Acquisire una comprensione approfondita dei principali formati audio utilizzati nelle comunicazioni mobili, come MP3, AAC e FLAC.
+- Comprendere i concetti di compressione audio lossy e lossless e i principi dei codec audio comuni.
+- Esaminare i protocolli di streaming come HTTP Live Streaming (HLS), Real-Time Messaging Protocol (RTMP) e Dynamic Adaptive Streaming over HTTP (DASH).
+- Approfondire la conoscenza del Real-time Transport Protocol (RTP) e del Real-time Control Protocol (RTCP) per lo streaming in tempo reale.
+- Familiarizzare con FFMPEG come strumento potente per la registrazione, conversione e manipolazione dei flussi audio-video.
+- Apprendere la progettazione di script semplici per la conversione audio-video.
+- Esplorare l'utilizzo di framework o librerie per la creazione di interfacce utente.
+- Progettare e sviluppare applicazioni complete per lo streaming audio-video.  
+
+
+🇬🇧 The aim of the course is to study technologies for manipulating audio-video information for the web and mobile systems. Students will gain an understanding of fundamental concepts related to multimedia streaming, explore common audio and video formats, study codecs and compression techniques, learn to utilize FFMPEG, a powerful open-source tool for real-time capture and conversion, and develop customized applications for stream management. Moreover, guidelines will be provided for designing and developing simple custom scripts using FFMPEG to automate conversion and media management processes.  
 In the practical part of the course, students will have the opportunity to apply their skills by using FFMPEG commands and developing custom applications. They will be encouraged to employ frameworks or libraries to create intuitive user interfaces.  
 All of this is aimed at providing students with a solid understanding of principles and practices related to audio-video streaming and how to efficiently and professionally manage multimedia streams using FFMPEG as a key tool.  
 
@@ -35,7 +51,11 @@ Specifically:
 
 > **Educational method**  
 
-The adopted teaching method follows a rigorous structure that includes a theoretical component and a laboratory component. The theoretical part of the lessons is dedicated to a clear and systematic exposition of the fundamental concepts of the subject. Through detailed explanations, relevant examples, and visual illustrations, the aim is to provide students with a deep understanding of the theoretical principles underlying the discipline.  
+🇮🇹 Il metodo didattico adottato segue una struttura rigorosa che prevede una parte teorica e una parte di laboratorio. La componente teorica delle lezioni è dedicata all'esposizione chiara e sistematica dei concetti fondamentali della materia. Attraverso spiegazioni dettagliate, esempi pertinenti e illustrazioni visive, si mira a fornire agli studenti una comprensione approfondita dei principi teorici che sottendono alla disciplina.  
+La parte di laboratorio, invece, costituisce un elemento essenziale per consolidare le conoscenze teoriche acquisite. Durante queste sessioni, gli studenti hanno l'opportunità di applicare direttamente ciò che hanno appreso, affrontando problemi concreti e sviluppando competenze pratiche. Attraverso attività interattive, esercizi di programmazione, progetti pratici e simulazioni, gli studenti acquisiscono familiarità con le procedure operative e sviluppano le abilità necessarie per risolvere problemi in modo autonomo.  
+
+
+🇬🇧 The adopted teaching method follows a rigorous structure that includes a theoretical component and a laboratory component. The theoretical part of the lessons is dedicated to a clear and systematic exposition of the fundamental concepts of the subject. Through detailed explanations, relevant examples, and visual illustrations, the aim is to provide students with a deep understanding of the theoretical principles underlying the discipline.  
 The laboratory part, on the other hand, constitutes an essential element for consolidating the acquired theoretical knowledge. During these sessions, students have the opportunity to directly apply what they have learned by tackling concrete problems and developing practical skills. Through interactive activities, programming exercises, practical projects, and simulations, students gain familiarity with operational procedures and develop the necessary skills to independently solve problems.  
 
 > **Required Software and Tools**

@@ -2,7 +2,70 @@
 
 [**⬅️ BACK HOME**](/HOME.md)  
 
+🇮🇹 
+>**PRIMA DI TUTTO...**  
 
+Nella selezione degli studenti che richiedono di fare la tesi con me, ciò che tengo fortemente in considerazione è che il lavoro proposto sia strettamente correlato con il mio campo di specializzazione. Ritengo fondamentale che gli studenti affrontino ricerche nel mio campo di competenze, ciò mi permette di offrire loro l'orientamento, il supporto e l'esperienza necessari durante il percorso di tesi. È essenziale che la loro proposta di tesi rifletta una comprensione e un'applicazione dei concetti, delle teorie e delle competenze pratiche affrontate durante i miei corsi. Questa coerenza assicura un'esperienza di apprendimento coesa e significativa sia per lo studente che per me come relatore.  
+Riservo, poi, una particolare attenzione per i lavori sperimentali in cui gli studenti si mettono in gioco e cercano attivamente di apportare cambiamenti significativi. In particolare, incoraggio gli studenti a esplorare nuove idee, metodi e approcci innovativi nel loro lavoro di tesi. Credo che la sperimentazione sia un'opportunità preziosa per gli studenti di acquisire una comprensione più approfondita della materia e di sviluppare competenze pratiche. È in questo modo che gli studenti possono sviluppare la propria creatività, flessibilità e capacità di problem solving. Inoltre, i lavori sperimentali offrono l'opportunità di contribuire attivamente al progresso del campo di studio e di apportare un impatto significativo nella disciplina.  
+In ultima battuta, il tempo. Un lavoro di tesi ha sempre bisogno di tempo ed io non amo fare le cose in fretta e furia!
+
+>**Tesi curriculare (Triennio e Biennio)**
+
+Presentazione e discussione di un elaborato sintesi di un’accurata analisi di una grande raccolta di fonti e bibliografia. Nello specifico, deve trattarsi di un lavoro che riporti gli studi già condotti sull’argomento concordato con il docente in ragionevole anticipo (minino 3, massimo 6 mesi), raccolti in maniera coerente attraverso una corretta analisi, al fine di una logica e personale rielaborazione dell’oggetto di discussione.  
+
+L’elaborato dovrà contenere almeno:  
+- 30 cartelle per il triennio  
+- 80 cartelle per il biennio  
+
+La struttura consigliata dell’elaborato è:
+- Frontespizio
+- Dedica (non obbligatoria)
+- Indice
+- Introduzione
+- Corpo
+- Conclusioni
+- Appendici o allegati (non obbligatori)
+- Bibliografia
+- Ringraziamenti (non obbligatori)
+
+
+>**Tesi di ricerca (Triennio e Biennio)**
+
+La tesi di ricerca richiede un notevole lavoro di studio e ricerca sull’argomento concordato con il docente in tempi ragionevoli (minimo 6 mesi), in maniera da fornire un nuovo punto di vista o far emergere degli aspetti originali e innovativi. Un lavoro di ricerca deve anch’esso contenere una parte compilativa e teorica, dalla quale emergano le considerazioni e le elaborazioni personali frutto del lavoro di analisi delle fonti. È dello studente la responsabilità principale per la coordinazione e svolgimento della ricerca. Si sottolinea, inoltre, che la ricerca condotta non necessariamente deve portare a risultati innovativi ma può confermare o arricchire ricerche originali in campo nazionale ed internazionale della materia oggetto dello studio.  
+
+Struttura dell’elaborato:  
+- Frontespizio
+- Dedica (non obbligatoria)
+- Indice
+- Introduzione e scopo dello studio
+- Corpo, costituito da: ipotesi, studi esistenti, nuovi studi, risultati e riflessioni. Un esempio di corpo dell’elaborato potrebbe essere: I cap. Si definisce l’ipotesi che si andrà a confermare o meno dopo aver eseguito i test e le indagini necessari; II e III cap. Si illustra in modo dettagliato la ricerca, parlando delle metodologie utilizzate, di come sono state utilizzate e con quali esiti; IV e V cap. Si presentano i risultati della ricerca e si indica se la tua ipotesi iniziale è stata confermata o confutata
+- Bibliografia
+- Appendice
+- Ringraziamenti (non obbligatori)
+
+>**Regole di tipografia:**
+
+**Font**: Arial, Verdana, Calibri, Times New Roman, Palatino
+**Dimensione del carattere**: titoli dei paragrafi 16pt, sottotitoli 14pt, corpo centrale max 12pt, note a piè di pagina 10pt
+**Interlinea**: 1.5 righe
+**Il testo, le note e la bibliografia vanno giustificati**
+**Margini**: superiore 2.5, inferiore 2.5, destro 4, sinistro 4
+**Pseudocodice e/o codice**: font Courier New, dimensione 12pt
+**Le pagine vanno numerate ad esclusione del frontespizio, della dedica e/o dei ringraziamenti e dell’indice.**
+**Bibliografia**: la bibliografia deve essere compilata nel modo come segue.
+
+*Opere:*  
+COGNOME Nome o Iniziali. Titolo. Luogo di pubblicazione: Casa editrice, Anno di pubblicazione. N. pagine
+
+*Articoli:*  
+COGNOME Nome o iniziali. "Titolo dell'articolo". Titolo del periodico in corsivo, Anno, volume, numero, p. prima pagine-ultima pagina
+
+*Risorse online* 
+Ente autore o COGNOME, Nome (sito personale). Titolo della pagina principale in corsivo [Online]. Disponibile all’indirizzo: <URL>. (consultato il data)
+
+AUTORE o ENTE. "Titolo della pagina". In: Titolo della pagina principale/homepage in corsivo [Online]. Data di pubblicazione (se è disponibile). Disponibile all’indirizzo: <URL>. (consultato in data).  
+
+🇬🇧 
 >**FIRST...**  
 
 What I strongly consider when selecting students who request to do their thesis with me is that the proposed work is closely related to my field of expertise. It is essential that students undertake research within my field of specialization, as this allows me to provide them with the guidance, support, and experience needed throughout the thesis process. It is crucial that their thesis proposal reflects an understanding and application of the concepts, theories, and practical skills covered in my courses. This coherence ensures a cohesive and meaningful learning experience for both the student and me as the supervisor.  
