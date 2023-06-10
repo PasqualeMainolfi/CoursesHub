@@ -6,7 +6,48 @@ Welcome to the "*Sampling, Synthesis, and Digital Sound Processing*" course!
 
 > **Course Objectives**  
 
-The course objectives aim to provide students with a solid foundation of knowledge in the field of sampling, synthesis, and digital sound processing, as well as the ability to use programming languages to implement audio algorithms and develop practical projects in the field of digital audio. Students will acquire theoretical and practical tools to conduct detailed analysis of audio signals, enabling them to deeply understand the acoustic characteristics of sounds. They will learn to develop scientific communication skills through the study of relevant articles and will be encouraged to write documents to present and share the results of their research.  
+🇮🇹 Gli obiettivi del corso mirano a fornire agli studenti una solida base di conoscenze nel campo del campionamento, sintesi ed elaborazione digitale del suono, nonché la capacità di utilizzare linguaggi di programmazione per implementare algoritmi audio e sviluppare progetti pratici nel settore dell'audio digitale. 
+Gli studenti acquisiranno gli strumenti teorico/pratici utili a condurre analisi dettagliate sui segnali audio, consentendo in questo modo la comprensione delle caratteristiche acustiche dei suoni in modo approfondito. Impareranno a sviluppare capacità di comunicazione scientifica attraverso lo studio di articoli in materia e, saranno loro stessi incoraggiati alla stesura di documenti in cui poter presentare e condividere i risultati delle proprie ricerche. 
+Inoltre, il corso offrirà agli studenti una panoramica approfondita sulle potenzialità e sulle sfide dell'intelligenza artificiale (IA) nell'ambito dell'audio digitale. Gli studenti acquisiranno conoscenze sulle reti neurali e sulle tecniche di apprendimento automatico applicate alla sintesi e alla manipolazione dei segnali audio. Saranno guidati nell'esplorazione delle molteplici applicazioni dell'IA nell'arte sonora e nella ricerca scientifica.
+Attraverso progetti pratici, gli studenti avranno l'opportunità di sperimentare e dimostrare l'applicazione di tecniche di intelligenza artificiale nell'ambito dell'audio digitale. Saranno incoraggiati a sviluppare progetti artistici innovativi che sfruttino le potenzialità dell'IA.
+Allo stesso tempo, saranno incoraggiati a condurre ricerche scientifiche nell'ambito dell'audio digitale, applicando tecniche di intelligenza artificiale per analisi avanzate, separazione di sorgenti sonore o generazione di nuovi algoritmi.
+Questo approccio all'integrazione dell'intelligenza artificiale nell'ambito dell'audio digitale fornirà agli studenti una prospettiva completa e pratica delle sfide e delle opportunità offerte dall'IA.  
+
+Nello specifico:
+
+1. *Comprendere i fondamenti del campionamento audio:*
+   - Apprendere il teorema del campionamento e la sua importanza nell'elaborazione digitale del suono
+   - Acquisire familiarità con i concetti di frequenza di campionamento, profondità di bit e rappresentazione digitale dei segnali audio 
+
+2. *Comprendere ed imparare ad analizzare i segnali audio:*
+   - Apprendere le tecniche di analisi del suono per esaminare le caratteristiche spettrali, temporali e timbriche dei segnali audio
+   - Utilizzare strumenti e algoritmi per l'analisi spettrale
+   - Acquisire competenze nell'interpretazione e nell'elaborazione dei dati risultanti dall'analisi
+
+3. *Conoscere le tecniche di sintesi e di elaborazione del suono:*
+   - Esplorare le principali metodologie e comprendere i principi alla base della sintesi sonora
+   - Acquisire conoscenze sul come e in che modo applicare queste tecniche per la manipolazione dei segnali audio
+
+4. *Utilizzare linguaggi di programmazione per l'audio:*
+   - Apprendere linguaggi di programmazione ampiamente utilizzati nel contesto dell'audio digitale, come Csound, C++, Python, Java e altri
+   - Acquisire competenze nella scrittura di codice per implementare algoritmi di campionamento, sintesi e elaborazione del suono
+
+5. *Sviluppare progetti pratici:*
+   - Applicare le conoscenze acquisite per sviluppare progetti pratici nel campo del campionamento, sintesi ed elaborazione del suono
+   - Creare strumenti virtuali, effetti audio o applicazioni interattive utilizzando strumenti di programmazione audio
+
+6. *Creazione di materiale artistico e stesura di articoli scientifici:*
+   - Utilizzare le competenze acquisite nel campo della sintesi e della elaborazione e dell’analisi del suono per stimolare la creazione di materiale artistico originale
+   - Sviluppare capacità di comunicazione scientifica e di ricerca nel campo dell’audio digitale attraverso la stesura di articoli in materia
+   - Esplorare come le competenze tecniche e artistiche possano integrarsi nella produzione di opere artistiche significative e nella presentazione di risultati di ricerca scientifica
+
+7. *Esplorare l’uso dell’intelligenza artificiale (IA) per la sintesi e la manipolazione dei segnali audio:*
+   - Comprendere i concetti di base dell’intelligenza artificiale applicata al campo dell’audio digitale
+   - Imparare ad utilizzare framework e librerie di IA come TensorFlow o PyTorch per la sintesi e la manipolazione dei segnali audio
+   - Esplorare le potenzialità degli Evolutionary Algorithms (Algoritmi Genetici, Swarm Intelligence, etc…) applicati alla ottimizzazione dei parametri di sintesi, generazione e manipolazione dei segnali audio  
+
+
+🇬🇧 The course objectives aim to provide students with a solid foundation of knowledge in the field of sampling, synthesis, and digital sound processing, as well as the ability to use programming languages to implement audio algorithms and develop practical projects in the field of digital audio. Students will acquire theoretical and practical tools to conduct detailed analysis of audio signals, enabling them to deeply understand the acoustic characteristics of sounds. They will learn to develop scientific communication skills through the study of relevant articles and will be encouraged to write documents to present and share the results of their research.  
 Furthermore, the course will offer students an in-depth overview of the potentials and challenges of artificial intelligence (AI) in the field of digital audio. Students will gain knowledge about neural networks and machine learning techniques applied to audio synthesis and manipulation. They will be guided in exploring the multiple applications of AI in sound art and scientific research.  
 Through practical projects, students will have the opportunity to experiment with and demonstrate the application of AI techniques in the field of digital audio. They will be encouraged to develop innovative artistic projects that leverage the potentials of AI. At the same time, they will be encouraged to conduct scientific research in the field of digital audio, applying AI techniques for advanced analysis, source separation, or the generation of new algorithms.  
 This approach to integrating artificial intelligence in the field of digital audio will provide students with a comprehensive and practical perspective on the challenges and opportunities offered by AI.  
@@ -69,7 +110,11 @@ Specifically:
 
 > **Educational method**
 
-The adopted teaching method follows a rigorous structure that includes a theoretical component and a laboratory component. The theoretical part of the lessons is dedicated to a clear and systematic exposition of the fundamental concepts of the subject. Through detailed explanations, relevant examples, and visual illustrations, the aim is to provide students with a deep understanding of the theoretical principles underlying the discipline.  
+🇮🇹 Il metodo didattico adottato segue una struttura rigorosa che prevede una parte teorica e una parte di laboratorio. La componente teorica delle lezioni è dedicata all'esposizione chiara e sistematica dei concetti fondamentali della materia. Attraverso spiegazioni dettagliate, esempi pertinenti e illustrazioni visive, si mira a fornire agli studenti una comprensione approfondita dei principi teorici che sottendono alla disciplina.  
+La parte di laboratorio, invece, costituisce un elemento essenziale per consolidare le conoscenze teoriche acquisite. Durante queste sessioni, gli studenti hanno l'opportunità di applicare direttamente ciò che hanno appreso, affrontando problemi concreti e sviluppando competenze pratiche. Attraverso attività interattive, esercizi di programmazione, progetti pratici e simulazioni, gli studenti acquisiscono familiarità con le procedure operative e sviluppano le abilità necessarie per risolvere problemi in modo autonomo.  
+
+
+🇬🇧 The adopted teaching method follows a rigorous structure that includes a theoretical component and a laboratory component. The theoretical part of the lessons is dedicated to a clear and systematic exposition of the fundamental concepts of the subject. Through detailed explanations, relevant examples, and visual illustrations, the aim is to provide students with a deep understanding of the theoretical principles underlying the discipline.  
 The laboratory part, on the other hand, constitutes an essential element for consolidating the acquired theoretical knowledge. During these sessions, students have the opportunity to directly apply what they have learned by tackling concrete problems and developing practical skills. Through interactive activities, programming exercises, practical projects, and simulations, students gain familiarity with operational procedures and develop the necessary skills to independently solve problems.  
 
 
