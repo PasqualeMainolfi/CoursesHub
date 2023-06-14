@@ -1,9 +1,9 @@
 # **Computer Music Courses Hub**
 
-👋 Benvenuto nella mia repository dedicata ai miei corsi di computer music!  
+👋 Benvenuto nella repository dedicata ai miei corsi di computer music!  
 Qui troverai tutto il materiale e le informazioni sempre aggiornate sui miei corsi. 
 
-**...prima di procedere, se hai intenzione di frequentare uno dei miei corsi, ti chiederei gentilmente di unirti al canale Telegram `@PasqualeMainolfi`. Utilizzerò questo canale per aggiornamenti rapidi e comunicazioni. È un ottimo modo per rimanere connessi!**
+**...prima di procedere, se dovrai frequentare uno dei miei corsi, ti chiederei gentilmente di unirti al canale Telegram `@PasqualeMainolfi`. Utilizzerò questo canale per aggiornamenti rapidi e comunicazioni. È un ottimo modo per rimanere connessi!**
 
 
 👋 Welcome to my computer music courses repo!  
