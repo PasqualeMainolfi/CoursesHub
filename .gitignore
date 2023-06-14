@@ -1,1 +1,3 @@
-**/.Ds_Store
+.vscode
+.DS_Store
+*.log
