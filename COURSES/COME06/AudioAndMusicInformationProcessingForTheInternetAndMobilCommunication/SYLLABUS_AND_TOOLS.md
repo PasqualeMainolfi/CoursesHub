@@ -8,8 +8,8 @@ Welcome to the "*Audio and Music Information Processing for the Internet and Mob
 > **Course Objectives**  
 
 🇮🇹 Obiettivo del corso è lo studio delle tecnologie per la manipolazione delle informazioni audio-video per il web e i sistemi mobili. Comprendere i concetti fondamentali legati allo streaming multimediale, esplorare i formati audio e video più comuni, studiare i codec e le tecniche di compressione, imparare ad utilizzare FFMPEG (un potente strumento open-source per la cattura e la conversione in tempo reale, e sviluppare applicazioni personalizzate per la gestione dei flussi), gestire patches per l'interazione in tempo reale via network in Csound e/o Max/Msp (socket send/receive).   
-Nella parte pratica del corso, gli studenti avranno l'opportunità di mettere in pratica le loro competenze utilizzando i comandi di FFMPEG e sviluppando applicazioni personalizzate. Saranno incoraggiati a utilizzare framework o librerie per creare interfacce utente intuitive e, guidati allo sviluppo di scripts in Csound o Max/Msp per il controllo e la gestione di coding in tempo reale.
-Tutto al fine di fornire agli studenti una solida comprensione dei principi e delle pratiche legate allo streaming audio-video e di come utilizzare FFMPEG, Csound o Max/Msp, come strumenti chiave per gestire i flussi multimediali in modo efficiente e professionale.
+Nella parte pratica del corso, gli studenti avranno l'opportunità di mettere in pratica le loro competenze utilizzando i comandi di FFMPEG e sviluppando applicazioni personalizzate. Saranno incoraggiati a utilizzare framework o librerie per creare interfacce utente intuitive e, guidati allo sviluppo di scripts in Python, Csound o Max/Msp per il controllo e la gestione di coding in tempo reale.
+Tutto al fine di fornire agli studenti una solida comprensione dei principi e delle pratiche legate allo streaming audio-video e di come utilizzare FFMPEG, Python e Csound o Max/Msp, come strumenti chiave per gestire i flussi multimediali in modo efficiente e professionale.
 
 Nello specifico:  
 
@@ -18,6 +18,7 @@ Nello specifico:
 - Esaminare i protocolli di streaming come HTTP Live Streaming (HLS), User Datagram Protocol (UDP), Real-Time Messaging Protocol (RTMP) e Dynamic Adaptive Streaming over HTTP (DASH).
 - Approfondire la conoscenza del Real-time Transport Protocol (RTP) e del Real-time Control Protocol (RTCP) per lo streaming in tempo reale.
 - Familiarizzare con FFMPEG come potente strumento per la registrazione, conversione e manipolazione dei flussi audio-video.
+- Creazione e gestione di un socket in Python.
 - Live coding: controllo e gestione di script in Csound e Max/Msp per l'invio e la ricezione di flussi audio via UDP.
 - Apprendere la progettazione di script semplici per la conversione audio-video.
 - Esplorare l'utilizzo di framework o librerie per la creazione di interfacce utente.
@@ -25,8 +26,8 @@ Nello specifico:
 
 
 🇬🇧 The goal of the course is to explore technologies for manipulating audio-video information for the web and mobile systems. Students will grasp fundamental concepts related to multimedia streaming, delve into common audio and video formats, study codecs and compression techniques, learn to utilize FFMPEG (a powerful open-source tool for real-time capture and conversion), and develop custom applications for stream management. They will also handle patches for real-time network interaction in Csound and/or Max/MSP using socket send/receive.  
-In the practical part of the course, students will have the opportunity to apply their skills by using FFMPEG commands and creating custom applications. They will be encouraged to employ frameworks or libraries for intuitive user interfaces and will be guided in developing scripts in Csound or Max/MSP for real-time coding control and management.  
-All of this is aimed at providing students with a solid understanding of principles and practices related to audio-video streaming and how to efficiently and professionally manage multimedia streams using FFMPEG, Csound, or Max/MSP as key tools.   
+In the practical part of the course, students will have the opportunity to apply their skills by using FFMPEG commands and creating custom applications. They will be encouraged to employ frameworks or libraries for intuitive user interfaces and will be guided in developing scripts in Python, Csound or Max/MSP for real-time coding control and management.  
+All of this is aimed at providing students with a solid understanding of principles and practices related to audio-video streaming and how to efficiently and professionally manage multimedia streams using FFMPEG, Python, Csound, or Max/MSP as key tools.   
 
 Specifically:  
 
@@ -35,7 +36,8 @@ Specifically:
 - Explore streaming protocols like HTTP Live Streaming (HLS), User Datagram Protocol (UDP), Real-Time Messaging Protocol (RTMP), and Dynamic Adaptive Streaming over HTTP (DASH).
 - Deepen knowledge of Real-time Transport Protocol (RTP) and Real-time Control Protocol (RTCP) for real-time streaming.
 - Familiarize oneself with FFMPEG as a powerful tool for recording, converting, and manipulating audio-video streams.
-- Live coding and Network Audio: send and receive audio data via UDP in Csound or Max/Msp
+- Python and socket.
+- Live coding and Network Audio: send and receive audio data via UDP in Csound or Max/Msp.
 - Learn to design simple scripts for audio-video conversion.
 - Explore the utilization of frameworks or libraries for creating user interfaces.
 - Design and develop comprehensive applications for audio-video streaming.

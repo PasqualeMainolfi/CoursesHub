@@ -27,6 +27,7 @@
 
 >**Module 5:**  
 - Designing and set up complex real time interaction scripts via UDP in Csound or Max/Msp
+- Designing and set up complex script in Python using PyAudio and Socket
 
 >**Module 6 (optional):**
 - Utilizing frameworks or libraries (e.g., Qt, Tkinter) for user interface creation
@@ -37,5 +38,5 @@
 - (Optional) Implementing the user interface for stream control  
 - Practical examples of audio streaming using different protocols (UDP, RTMP, RTP/RTCP, etc.)
 - Practical examples of audio-video synchronization in streaming using FFmpeg
-- Real time interaction in Csound or Max/Msp: control and management patches for real timne interaction over network
+- Real time interaction in Python, Csound or Max/Msp: control and management patches for real timne interaction over network
 - Performance optimization and testing

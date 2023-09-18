@@ -40,8 +40,9 @@
 
 >**Module 5:**  
 - introduction to real time interaction over network in Csound and Max/Msp: socket send/receive
+- Python: introduction to socket library
 
 >**Lab:**
 - Basic FFmpeg commands
 - Creating scripts or applications for converting media using FFmpeg
-- Pratical excercises for designing and set up live coding session over UDP in Csound e Max/Msp  
+- Pratical excercises for designing and set up live coding session over UDP in Python, Csound e Max/Msp  
