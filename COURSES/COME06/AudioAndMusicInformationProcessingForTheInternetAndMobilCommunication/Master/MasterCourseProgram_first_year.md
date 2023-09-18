@@ -26,9 +26,11 @@
 
 >**Module 3:**
 - Multimedia streaming: definition and basic concepts
+- Definition of *socket*
 - HTTP Live Streaming (HLS) protocol
 - Real-Time Messaging Protocol (RTMP)
 - Dynamic Adaptive Streaming over HTTP (DASH): principles and operation
+- User Datagram Protocol (UDP)
 - Real-time Transport Protocol (RTP) and Real-time Control Protocol (RTCP) for real-time streaming
 
 >**Module 4:**
@@ -36,6 +38,10 @@
 - Study of basic FFmpeg commands for audio-video conversion
 - Study of designing simple scripts for audio-video conversion
 
+>**Module 5:**  
+- introduction to real time interaction over network in Csound and Max/Msp: socket send/receive
+
 >**Lab:**
 - Basic FFmpeg commands
 - Creating scripts or applications for converting media using FFmpeg
+- Pratical excercises for designing and set up live coding session over UDP in Csound e Max/Msp  

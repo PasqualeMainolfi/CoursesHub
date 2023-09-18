@@ -14,28 +14,28 @@
 >**Module 1:**
 - Utilizing FFmpeg for real-time audio capture and transmission
 - Configuration of audio streaming parameters (bitrate, codec, etc.)
-- Practical examples of audio streaming using different protocols (RTMP, RTP/RTCP, etc.)
-
->**Module 2:**
 - Real-time video capture and transmission using FFmpeg
 - Configuration of video streaming parameters (resolution, framerate, codec, etc.)
-- Practical examples of video streaming with different protocols (RTMP, RTP/RTCP, etc.)
-
->**Module 3:**
+- Practical examples of video streaming with different protocols (UDP, RTMP, RTP/RTCP, etc.)
 - Audio-video synchronization techniques to ensure proper streaming playback
 - Using FFmpeg to handle synchronization between audio and video streams
-- Practical examples of audio-video synchronization in streaming using FFmpeg
 
 >**Module 4:**
 - Optimizing streaming parameters to enhance audio-video quality and smoothness
 - Latency reduction techniques in real-time streaming
-- Streaming scalability and managing multiple streams
+- Streaming scalability and managing multiple streams  
 
->**Module 5:**
+>**Module 5:**  
+- Designing and set up complex real time interaction scripts via UDP in Csound or Max/Msp
+
+>**Module 6 (optional):**
 - Utilizing frameworks or libraries (e.g., Qt, Tkinter) for user interface creation
 - Basic implementation of features such as stream selection, volume control, and real-time stream display
 
 >**Lab:**
-- Designing and developing a complete application that utilizes FFmpeg for audio-video streaming
-- Implementing the user interface for stream control
+- (Optional) Designing and developing a complete application that utilizes FFmpeg for audio-video streaming
+- (Optional) Implementing the user interface for stream control  
+- Practical examples of audio streaming using different protocols (UDP, RTMP, RTP/RTCP, etc.)
+- Practical examples of audio-video synchronization in streaming using FFmpeg
+- Real time interaction in Csound or Max/Msp: control and management patches for real timne interaction over network
 - Performance optimization and testing
