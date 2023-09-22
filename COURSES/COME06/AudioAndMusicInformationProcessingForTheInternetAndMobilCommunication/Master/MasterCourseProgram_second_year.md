@@ -20,18 +20,23 @@
 - Audio-video synchronization techniques to ensure proper streaming playback
 - Using FFmpeg to handle synchronization between audio and video streams
 
->**Module 4:**
-- Optimizing streaming parameters to enhance audio-video quality and smoothness
-- Latency reduction techniques in real-time streaming
-- Streaming scalability and managing multiple streams  
+>**Module 2:**  
+- Understand basic JackTrip concepts, such as audio networking, server-client architecture
+- Explore the importance of low latency in real-time audio communication
+- Dive deeper into advanced JackTrip concepts, including audio routing, synchronization, and quality control
+- Learn about the benefits and challenges of remote music collaboration
+- Explore different network configurations and their impact on audio quality
 
->**Module 5:**  
-- Designing and set up complex real time interaction scripts via UDP in Csound or Max/Msp
+>**Module 3:**  
+- Designing and set up complex real time interaction scripts via UDP in Csound or Max/Msp using Jacktrip
 - Designing and set up complex script in Python using PyAudio and Socket
+- Designing and set up complex routing (using BlackHole and LoopBack)
+- Focus on the theory behind designing effective collaborative musical sessions using JackTrip
+- Study techniques for managing latency, synchronization, and maintaining audio quality in remote music collaboration
 
->**Module 6 (optional):**
+>**Module 4 (optional):**
 - Utilizing frameworks or libraries (e.g., Qt, Tkinter) for user interface creation
-- Basic implementation of features such as stream selection, volume control, and real-time stream display
+- Basic implementation of features such as stream selection, volume control, and real-time stream display*
 
 >**Lab:**
 - (Optional) Designing and developing a complete application that utilizes FFmpeg for audio-video streaming
@@ -39,4 +44,11 @@
 - Practical examples of audio streaming using different protocols (UDP, RTMP, RTP/RTCP, etc.)
 - Practical examples of audio-video synchronization in streaming using FFmpeg
 - Real time interaction in Python, Csound or Max/Msp: control and management patches for real timne interaction over network
-- Performance optimization and testing
+- Jacktrip:  
+  - Practice basic setup and configuration of JackTrip on local machines.
+  - Perform simple audio connections between local computers.
+  - Gain practical experience by setting up and managing a JackTrip server on a remote machine or cloud server.
+  - Experiment with advanced audio routing and quality settings.
+  - Establish connections between local computers and remote JackTrip servers.
+  - Apply the theoretical knowledge from earlier weeks to design and execute collaborative musical sessions.
+  - Plan and conduct practice sessions or performances with fellow students or musicians using JackTrip.

@@ -34,13 +34,14 @@
 - Real-time Transport Protocol (RTP) and Real-time Control Protocol (RTCP) for real-time streaming
 
 >**Module 4:**
-- FFmpeg: a powerful tool for recording, converting, and manipulating audio-video streams, introduction
+- FFmpeg, a powerful tool for recording, converting, and manipulating audio-video streams: introduction
 - Study of basic FFmpeg commands for audio-video conversion
 - Study of designing simple scripts for audio-video conversion
 
 >**Module 5:**  
-- introduction to real time interaction over network in Csound and Max/Msp: socket send/receive
+- Introduction to real time interaction over network in Csound and Max/Msp: socket send/receive
 - Python: introduction to socket library
+- Introduction to Jack Audio Connection Kit and Jacktrip (using Qjackctl GUI): client and server (HUB and P2P mode)
 
 >**Lab:**
 - Basic FFmpeg commands
