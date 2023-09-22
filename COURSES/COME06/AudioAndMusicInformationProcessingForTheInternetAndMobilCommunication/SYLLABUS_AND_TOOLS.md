@@ -83,10 +83,10 @@ To participate in this course, in addition to a personal computer with sufficien
 
 - Software
   - [FFmpeg](#ffmpeg)
-  - [BlackHole]
-  - [JackAudioConnectionKit]
-  - [Jacktrip]
-  - [Loopback]
+  - [BlackHole](#blackhole-only-for-macos) (MacOS) 
+  - [JackAudioConnectionKit](#jack-audio-connection-kit)
+  - [Jacktrip](#jacktrip)
+  - [Loopback](#loopback) (MacOs)
 
 ## **Getting Started**  
 
@@ -193,11 +193,13 @@ However, it is also possible to install Python on the main system
 
 1. Visual Studio Code, commonly referred to as VS Code, is a lightweight yet powerful source code editor developed by Microsoft. It is designed to provide a modern and customizable environment for coding, debugging, and collaboration.  
    Install VS Code from https://code.visualstudio.com/  
-   or, on MacOS, via `brew` by running the following command:  
-   ```shell
+   or, on MacOS, via `brew` by running the following command:   
+
+   ```sh
    brew update
    brew install --cask visual-studio-code
-   ```  
+   ``` 
+
    To adapt VS Code to our work, open the editor and install the following exentions:  
    - Python  
    - Pylance
@@ -207,6 +209,49 @@ However, it is also possible to install Python on the main system
 2. Install PyCharm and IntelliJ from https://www.jetbrains.com/  
    PyCharm is specifically designed for Python development, providing a comprehensive set of tools and features tailored to Python programmers. It offers intelligent code completion, code inspections, and quick fixes to help you write clean and efficient Python code. PyCharm also includes advanced debugging capabilities, integrated version control, and support for popular Python frameworks and libraries.
    IntelliJ IDEA, on the other hand, is a general-purpose IDE that supports multiple programming languages, including Java, Kotlin, JavaScript, and more. It provides a wide range of features for efficient coding, such as smart code completion, refactoring tools, and powerful debugging capabilities. IntelliJ IDEA is known for its excellent support for Java development, including frameworks like Spring, and it offers a rich ecosystem of plugins and extensions.
+
+
+### **BlackHole (Only for MacOs)**  
+---
+
+BlackHole is a modern macOS virtual audio loopback driver that allows applications to pass audio to other applications with zero additional latency.  
+Install BlackHole 16ch from: https://github.com/ExistentialAudio/BlackHole  
+or via brew:  
+
+```sh
+brew install blackhole-16ch
+```  
+
+### **Jack Audio Connection Kit**  
+---  
+
+JACK Audio Connection Kit (or JACK) is a professional sound server API and pair of daemon implementations to provide real-time, low-latency connections for both audio and MIDI data between applications.  
+Install from: https://jackaudio.org/  
+
+or via brew (for MacOs) 
+
+```sh
+brew install jack
+```  
+
+now, install QjackCtl, a simple GUI dialog for setting several JACK server parameters, which are properly saved between sessions, and a way control of the status of the audio server. With time, this primordial interface has become richer by including a enhanced patchbay and connection control features.  
+Install QjackCtl from https://qjackctl.sourceforge.io/    
+
+
+### **Jacktrip**  
+---
+
+JackTrip is a Linux, macOS, or Windows multi-machine audio system used for network music performance over the Internet. It supports any number of channels (as many as the computer/network can handle) of bidirectional, high quality, uncompressed audio signal streaming. You can use it between any combination of machines e.g., one end using Linux can connect to another using macOS.  
+Install from: https://jacktrip.github.io/jacktrip/Install/  
+
+
+### **Loopback**  
+---
+
+Loopback is a macOS application developed by Rogue Amoeba Software that allows you to manage audio from various sources and route sound between applications and audio devices.  
+This application is highly useful for creating custom audio configurations on a Mac and for flexible audio source management.  
+Install from: https://rogueamoeba.com/loopback/  
+
 
 
 

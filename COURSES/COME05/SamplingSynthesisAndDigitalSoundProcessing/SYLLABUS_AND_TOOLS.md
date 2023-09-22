@@ -143,6 +143,11 @@ To participate in this course, in addition to a personal computer with sufficien
 - Visualization and Analysis of audio signals Software
   - [Sonic Visualizer](#visualization-and-analysis-of-audio-signals-software)
 
+– Routing  
+  - [BlackHole](#routing) (MacOS) 
+  - [JackAudioConnectionKit](#routing)
+  - [Jacktrip](#routing)
+  - [Loopback](#routing) (MacOs)
 
 ## **Getting Started**  
 
@@ -306,6 +311,36 @@ Please visit https://github.com/csound/csound
 If you have downloaded and installed Python from the official website, it is crucial to remember to add Python to the system PATH during the installation process. Adding Python to the system PATH allows the operating system to recognize the "python" command from any location on your computer. This is particularly important when you need to run Python scripts from a terminal window or command prompt. During the Python installation process, you may come across an option to "Add Python to PATH" or a similar choice. Make sure to select this option to enable access to Python from any location.
 
 
+### **Routing**  
+---
+
+1. BlackHole is a modern macOS virtual audio loopback driver that allows applications to pass audio to other applications with zero additional latency.  
+   Install BlackHole 16ch from: https://github.com/ExistentialAudio/BlackHole  
+   or via brew:  
+
+   ```sh
+   brew install blackhole-16ch
+   ```  
+
+2. JACK Audio Connection Kit (or JACK) is a professional sound server API and pair of daemon implementations to provide real-time, low-latency connections for both audio and MIDI data between applications.  
+   Install from: https://jackaudio.org/  
+
+   or via brew (for MacOs) 
+
+   ```sh
+   brew install jack
+   ```  
+
+   now, install QjackCtl, a simple GUI dialog for setting several JACK server parameters, which are properly saved between sessions, and a way control of the status of the audio server. With time, this primordial interface has become richer by including a enhanced patchbay and connection control features.  
+   Install QjackCtl from https://qjackctl.sourceforge.io/    
+
+
+3. JackTrip is a Linux, macOS, or Windows multi-machine audio system used for network music performance over the Internet. It supports any number of channels (as many as the computer/network can handle) of bidirectional, high quality, uncompressed audio signal streaming. You can use it between any combination of machines e.g., one end using Linux can connect to another using macOS.  
+   Install from: https://jacktrip.github.io/jacktrip/Install/  
+
+
+4. Loopback is a macOS application developed by Rogue Amoeba Software that allows you to manage audio from various sources and route sound between applications and audio devices. This application is highly useful for creating custom audio configurations on a Mac and for flexible audio source management.  
+   Install from: https://rogueamoeba.com/loopback/  
 
 
 
