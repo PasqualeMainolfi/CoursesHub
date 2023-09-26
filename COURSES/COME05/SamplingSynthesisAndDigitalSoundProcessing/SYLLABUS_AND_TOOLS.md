@@ -124,6 +124,7 @@ To participate in this course, in addition to a personal computer with sufficien
 
 - Programming Languages
   - [Python](#python)
+  - [Rust](#rust)
   - [Java](#java)
   - [CSound](#csound-and-cabbage-studio)
   - [Cabbage Studio](#csound-and-cabbage-studio)
@@ -143,7 +144,7 @@ To participate in this course, in addition to a personal computer with sufficien
 - Visualization and Analysis of audio signals Software
   - [Sonic Visualizer](#visualization-and-analysis-of-audio-signals-software)
 
-– Routing  
+- Routing
   - [BlackHole](#routing) (MacOS) 
   - [JackAudioConnectionKit](#routing)
   - [Jacktrip](#routing)
@@ -227,6 +228,25 @@ However, it is also possible to install Python on the main system
   ```shell
   python -version
   ```
+
+### **Rust**  
+---  
+Rust is a programming language known for its strong focus on safety and performance. It was created by Mozilla Research and is used to develop a wide range of applications, from system programming to game engines. One of the most distinctive features of Rust is its ownership system, which prevents common memory access errors, ensuring that code is robust and secure. Additionally, Rust provides precise control over system resources, allowing developers to write highly efficient code. Thanks to these features, Rust has become increasingly popular among developers looking for a reliable programming language to tackle complex challenges in the world of software development.  
+
+Rust installation:  
+- you can find all information about at: https://www.rust-lang.org/  
+- on Mac or Unix-like  
+  ```sh
+  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+  ```
+  check your installation by running:
+  ```sh
+  rustc --version
+  ```  
+  for more information see: https://rust-lang.github.io/rustup/  
+- on Windows and other, see: https://forge.rust-lang.org/infra/other-installation-methods.html  
+
+
 
 ### **Java**  
 ---

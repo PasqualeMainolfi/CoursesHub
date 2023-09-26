@@ -63,7 +63,8 @@ Puoi visionare il calendario delle lezioni, cliccando sull'anno accademico sotto
 You can view the lesson schedule/calendar by clicking on the academic year of the course you are interested in:
 - [2022/23](/CLASS_CALENDAR/CALENDAR.md)
 
-**Considera che le lezioni potrebbero subire modifiche. Qualunque modifica apportata sarà comunicata cia Telegrama e/o via mail.  Please note that the lessons may be subject to changes. Any modifications will be communicated via Telegram and/or email.**
+**Considera che le lezioni potrebbero subire modifiche. Qualunque modifica apportata sarà comunicata cia Telegrama e/o via mail.**  
+**Please note that the lessons may be subject to changes. Any modifications will be communicated via Telegram and/or email.**
 
 ## **FAQ: Find the Answers You Need**  
 ---

@@ -8,7 +8,7 @@ Welcome to the "*Multimedia Systems, Technologies and Programming Languagues*" c
 
 🇮🇹 Il corso di Sistemi, Applicazioni e Linguaggi di Programmazione per la Multimedialità è progettato per fornire agli studenti una solida base di conoscenze e competenze nel campo dello sviluppo multimediale. Attraverso l’esplorazione di linguaggi di programmazione come Java, Processing, Javascript, p5js, e Python, gli studenti avranno l’opportunità di coltivare le competenze pratiche necessarie per lo sviluppo di applicazioni multimediali interattive e innovative.  
 Un altro aspetto cruciale che verrà approfondito durante il corso riguarda l'applicazione di tecniche di intelligenza artificiale nel contesto multimediale. Gli studenti avranno l'opportunità di mettere mano agli algoritmi di machine learning e visione artificiale per creare applicazioni multimediali intelligenti.  
-Durante il corso, verranno anche approfonditi concetti fondamentali come il protocollo MIDI e l'Open Sound Control (OSC) nel contesto multimediale. Di come sono, questi protocolli sono ampiamente utilizzati nella comunicazione e nel controllo di dispositivi per la sintesi e generazione sonora e/o di altro genere.  
+Durante il corso, verranno anche approfonditi concetti fondamentali come il protocollo MIDI e l'Open Sound Control (OSC) nel contesto multimediale. Di come, questi protocolli sono ampiamente utilizzati nella comunicazione e nel controllo di dispositivi per la sintesi e generazione sonora e/o di altro genere.  
 Alla fine del corso, gli studenti saranno in grado di sviluppare applicazioni multimediali sofisticate, integrando diverse tecnologie e linguaggi di programmazione. Avranno anche una solida comprensione dei principi di progettazione e ottimizzazione per la performance dei sistemi multimediali, garantendo un uso efficiente delle risorse hardware e software.  
 In conclusione, il corso di Sistemi, Applicazioni e Linguaggi di Programmazione per la Multimedialità si propone di fornire agli studenti le competenze e le conoscenze necessarie per affrontare le sfide dello sviluppo multimediale, consentendo loro di toccare con mano un contesto affascinante e in continua evoluzione.  
 
@@ -19,31 +19,31 @@ Nello specifico:
 - Approfondimento delle applicazioni e dei settori in cui i sistemi multimediali sono ampiamente utilizzati.
 - Esplorazione dei diversi linguaggi di programmazione utilizzati nello sviluppo di contenuti multimediali.
 
-2. *Apprendere le basi dei linguaggi di programmazione utilizzati nello sviluppo di contenuti multimediali, tra cui Java, Processing, JavaScript, p5.js e Python:*
+1. *Apprendere le basi dei linguaggi di programmazione utilizzati nello sviluppo di contenuti multimediali, tra cui Java, Processing, JavaScript, p5.js e Python:*
 - Introduzione ai concetti di base della programmazione e alla sintassi dei linguaggi di programmazione selezionati.
 - Pratiche esercitazioni di programmazione per acquisire familiarità con la scrittura di codice in tali linguaggi.
 - Utilizzo delle librerie e delle risorse disponibili per sviluppare contenuti multimediali interattivi.
 
-3. *Esplorare i principi e le tecniche dell'intelligenza artificiale (AI) nelle applicazioni multimediali, utilizzando algoritmi di apprendimento automatico e visione artificiale:*
+1. *Esplorare i principi e le tecniche dell'intelligenza artificiale (AI) nelle applicazioni multimediali, utilizzando algoritmi di apprendimento automatico e visione artificiale:*
 - Introduzione ai concetti di base dell'intelligenza artificiale e delle sue applicazioni nel contesto multimediale.
 - Studio degli algoritmi di apprendimento automatico e delle tecniche di visione artificiale utilizzate per l'elaborazione e l'analisi di dati multimediali.
 - Applicazione pratica delle tecniche di AI per migliorare l'interattività e la funzionalità dei progetti multimediali.
 
-4. *Sviluppare competenze pratiche nell'utilizzo di librerie e framework come OpenCV e MediaPipe per il riconoscimento e il tracciamento di oggetti in tempo reale:*
+1. *Sviluppare competenze pratiche nell'utilizzo di librerie e framework come OpenCV e MediaPipe per il riconoscimento e il tracciamento di oggetti in tempo reale:*
 - Esplorazione delle librerie e dei framework comunemente utilizzati per l'elaborazione e l'analisi di dati multimediali in tempo reale.
 - Esercitazioni pratiche sull'utilizzo al fine di implementare funzionalità avanzate nei progetti multimediali.
 
-5. *Approfondire il protocollo MIDI e l'Open Sound Control (OSC) per la comunicazione e il controllo:*
+1. *Approfondire il protocollo MIDI e l'Open Sound Control (OSC) per la comunicazione e il controllo:*
 - Studio dettagliato del protocollo MIDI e dell'OSC nel campo della produzione e multimediale.
 - Utilizzo di librerie e strumenti per implementare la comunicazione e il controllo attraverso il protocollo MIDI e l'OSC.
 - Creazione di progetti multimediali che sfruttano il protocollo MIDI e l'OSC per il controllo di suoni, luci o altri elementi interattivi.
 
-6. *Creare progetti multimediali interattivi e innovativi, integrando i diversi linguaggi di programmazione e le tecniche di intelligenza artificiale apprese durante il corso:*
+1. *Creare progetti multimediali interattivi e innovativi, integrando i diversi linguaggi di programmazione e le tecniche di intelligenza artificiale apprese durante il corso:*
 - Sviluppo di progetti multimediali che combinano elementi interattivi, grafica, suono,  sensoristica ed intelligenza artificiale.
 - Utilizzo dei linguaggi di programmazione e delle tecniche apprese per creare esperienze multimediali coinvolgenti e innovative.
 - Esplorazione di approcci creativi e sperimentazione per la realizzazione di progetti multimediali unici.
 
-7. *Comprendere i principi di progettazione e ottimizzazione per la performance dei sistemi multimediali, assicurando una corretta gestione delle risorse hardware e software:*
+1. *Comprendere i principi di progettazione e ottimizzazione per la performance dei sistemi multimediali, assicurando una corretta gestione delle risorse hardware e software:*
 - Studio dei principi di progettazione dei sistemi multimediali per garantire un'esperienza utente ottimale.
 - Ottimizzazione dei progetti multimediali per garantire la massima efficienza e velocità di esecuzione.
 - Valutazione delle risorse hardware e software necessarie per supportare i sistemi multimediali sviluppati durante il corso.    
