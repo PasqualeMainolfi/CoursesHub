@@ -54,6 +54,7 @@ Specifically:
 - **Korbel, F.**, FFmpeg Basics: Multimedia handling with a fast audio and video encoder. Frantisek Korbel 2012
 - **Subhash, V.**, FFmpeg Tips and Tricks. In Quick Start Guide to FFmpeg: Learn to Use the Open Source Multimedia-Processing Tool like a Pro (pp. 165-221). Berkeley, CA: Apress 2023
 - **Maia, I.**, Building Web Applications with Flask. Packt Publishing Ltd 2015  
+- **Jacktrip**, https://jacktrip.github.io/jacktrip/  
 
 > **Educational method**  
 

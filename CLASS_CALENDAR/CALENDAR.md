@@ -5,10 +5,15 @@
 [COME/05] Sampling, Synthesis and Digital Sound Processing (SSDSP)  
 [COME/05] Digital Music Notation (DMN)
 [COME/06] Multimedia Systems, Technologies and Programming Languages (MSTPL)  
-[COME/05] Audio and Music Information Processing for the Internet and Mobile Communication (AMIPIMC) 
+[COME/05] Audio and Music Information Processing for the Internet and Mobile Communication (AMIPIMC)  
+
+> **YEAR**  
+
+[2022/23](#202223)  
+[2023/24](#202324)
 
 
-> **2023**  
+> ### **2022/23**  
 
 |June||
 |:---|:---|
@@ -54,4 +59,7 @@
 |20|**14:00 - 16:00** SSDSP 1 Bachelor<br>**14:00 - 16:00** SSDSP 2 Bachelor|
 |21|**10:00 - 12:00** AMIPIMC 1 Master<br>**12:00 - 16:00** AMIPIMC 2 Master|
 |27|**14:00 - 16:00** AMIPIMC 1 Master<br>**16:00 - 20:00** AMIPIMC 2 Master|
-|||
+|||  
+
+
+> ### **2023/24**  

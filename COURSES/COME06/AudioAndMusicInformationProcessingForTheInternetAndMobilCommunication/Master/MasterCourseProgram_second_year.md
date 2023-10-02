@@ -36,7 +36,7 @@
 
 >**Module 4 (optional):**
 - Utilizing frameworks or libraries (e.g., Qt, Tkinter) for user interface creation
-- Basic implementation of features such as stream selection, volume control, and real-time stream display*
+- Basic implementation of features such as stream selection, volume control, and *real-time stream display*
 
 >**Lab:**
 - (Optional) Designing and developing a complete application that utilizes FFmpeg for audio-video streaming

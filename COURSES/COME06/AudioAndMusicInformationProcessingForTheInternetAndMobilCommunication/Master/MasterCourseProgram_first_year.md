@@ -15,7 +15,6 @@
 >**Module 1:**
 - Main audio formats used in mobile communications (MP3, AAC, etc...)
 - Audio compression: lossy and lossless
-- Common audio codecs (e.g., MP3, AAC, FLAC)
 - Features and principles of audio codec compression
 - Comparison of audio codecs for different quality and usage needs
 
