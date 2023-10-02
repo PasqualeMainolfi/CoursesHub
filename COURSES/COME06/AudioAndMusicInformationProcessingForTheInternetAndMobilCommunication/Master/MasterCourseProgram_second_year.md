@@ -1,4 +1,4 @@
-# **Audio and Music Information Processing for the Internet and Mobile Communication 2nd Year (Master)** 
+# **Audio and Music Information Processing for the Internet and Mobile Communication 2nd Year (Master)**
 
 [**⬅️ BACK HOME**](/HOME.md)  
 
@@ -12,6 +12,7 @@
 |                          |     |
 
 >**Module 1:**
+
 - Utilizing FFmpeg for real-time audio capture and transmission
 - Configuration of audio streaming parameters (bitrate, codec, etc.)
 - Real-time video capture and transmission using FFmpeg
@@ -21,6 +22,7 @@
 - Using FFmpeg to handle synchronization between audio and video streams
 
 >**Module 2:**  
+
 - Understand basic JackTrip concepts, such as audio networking, server-client architecture
 - Explore the importance of low latency in real-time audio communication
 - Dive deeper into advanced JackTrip concepts, including audio routing, synchronization, and quality control
@@ -28,6 +30,7 @@
 - Explore different network configurations and their impact on audio quality
 
 >**Module 3:**  
+
 - Designing and set up complex real time interaction scripts via UDP in Csound or Max/Msp using Jacktrip
 - Designing and set up complex script in Python using PyAudio and Socket
 - Designing and set up complex routing (using BlackHole and LoopBack)
@@ -35,10 +38,12 @@
 - Study techniques for managing latency, synchronization, and maintaining audio quality in remote music collaboration
 
 >**Module 4 (optional):**
+
 - Utilizing frameworks or libraries (e.g., Qt, Tkinter) for user interface creation
 - Basic implementation of features such as stream selection, volume control, and *real-time stream display*
 
 >**Lab:**
+
 - (Optional) Designing and developing a complete application that utilizes FFmpeg for audio-video streaming
 - (Optional) Implementing the user interface for stream control  
 - Practical examples of audio streaming using different protocols (UDP, RTMP, RTP/RTCP, etc.)

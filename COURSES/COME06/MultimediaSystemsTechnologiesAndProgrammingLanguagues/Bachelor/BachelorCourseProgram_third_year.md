@@ -12,6 +12,7 @@
 |                          |     |
 
 >**Module 1:**
+
 - Introduction to OpenCV: an open-source library for image and video processing
 - Installation and configuration of OpenCV for the development environment
 - Digital images, color spaces, bit depth, and common file formats
@@ -22,11 +23,13 @@
 - Advanced filters like edge detection (e.g., Canny edge detection) and detection of lines and geometric shapes.
 
 >**Module 2:**
+
 - Fundamentals of audio processing in multimedia contexts
 - Analysis, manipulation, and audio feature extraction
 - Audio synthesis and interactive playback
 
 >**Module 3:**
+
 - Fundamental concepts of the MediaPipe framework
 - Creating processing pipelines with MediaPipe
 - Using MediaPipe for image processing: feature extraction, object detection and tracking, filters, and transformations
@@ -34,12 +37,14 @@
 - Using MediaPipe for real-time tracking of objects, faces, hands, facial expressions, and poses
 
 >**Lab:**
+
 - Implementation of practical projects that combine the concepts learned during the course modules
 - Using OpenCV and MediaPipe to develop interactive multimedia applications in Python, JavaScript, and CSound environments.
 
-
-
 >---
+>
 >### **Suggested Readings**  
->- **I strongly recommend visiting the NIME portal at https://www.nime.org/. You will find a wide range of articles that will expand your horizons**  
+>
+>- **I strongly recommend visiting the NIME portal at <https://www.nime.org/>. You will find a wide range of articles that will expand your horizons**  
+>
 >---

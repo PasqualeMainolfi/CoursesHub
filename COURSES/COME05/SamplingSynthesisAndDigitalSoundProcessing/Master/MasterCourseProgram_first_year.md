@@ -11,42 +11,48 @@
 |**Evaluation**                  |🇮🇹 Idoneità. Valutazione di un progetto di verifica scelto e realizzato dall'allievo, previamente concordato con il docente, sugli argomenti trattati durante il corso. La valutazione del progetto sarà condotta in base a criteri predefiniti, quali l'originalità del lavoro, la profondità dell'analisi, la qualità dell'implementazione e la correttezza dei risultati ottenuti. Infine, basandosi sulla valutazione del progetto si formulerà un giudizio di idoneità o non idoneità dello studente. Saranno considerati i meriti del lavoro svolto, la capacità di comprendere e applicare i concetti teorici appresi durante il corso. Si sottolinea che il test sarà condotto in modo rigoroso, obiettivo e imparziale, al fine di valutare le competenze e le abilità acquisite dallo studente.<br><br>🇬🇧 Eligibility test. Evaluation of a student-selected and implemented verification project, previously agreed upon with the instructor, on the topics covered during the course. The project assessment will consider factors such as originality, depth of analysis, quality of implementation, and accuracy of results. Based on this evaluation, a judgment of eligibility or non-eligibility will be determined for the student. The assessment will also take into account the student's ability to understand and apply the theoretical concepts covered in the course. It's important to note that the test will be conducted fairly and objectively, solely aimed at evaluating the student's skills and abilities.|
 |                          |     |
 
-
 > **Module 1**
+
 - Introduction to optimization methods and machine learning (part 1)  
 - Definition of *optimization*  
 - Optimization problems and search spaces  
 - Machine learning and evolutionary algorithms (EA)  
 
 > **Module 2**
+
 - Introduction to EAs  
 - Genetic algorithms (GA), Particle Swarm Optimization (PSO), and Ant Colony Optimization (ACO): overview and differences  
 
 > **Module 3**
+
 - Genetic algorithms (GA)  
 - Representation, selection, crossover, and mutation  
 - The importance of the fitness function  
 - Examples of using GAs in generating sound events and/or optimizing synthesis parameters: successes and failures  
 
-> **Module 4** 
+> **Module 4**
+
 - Particle Swarm Optimization (PSO)  
 - Initialization, updating particle positions and velocities  
 - Matching Synthesis and PSO  
 
-
 > **Module 5**
+
 - Ant Colony Optimization (ACO)  
 - Pheromones and trail updating  
 - Optimization and generation of synthesis parameters using ACO  
 
 > **Lab**
+
 - Using CSound and Python as a programming environment for sound synthesis  
 - Integrating Python with CSound for data analysis, processing, user interface management, and event generation automation  
 - Practical examples of implementing a simple GA in Python  
 - Design and implementation of a PSO and/or ACO algorithm for optimizing parameters of a synthesis model  
 
 >---
+>
 >### **Suggested Readings**  
+>
 >- **Holland, J. H.**, Adaptation in natural and artificial systems: an introductory analysis with applications to biology, control, and artificial intelligence. MIT press 1992.
 >- **Eiben, A. E., & Smith, J. E.**, Introduction to evolutionary computing. Springer-Verlag Berlin Heidelberg 2015.
 >- **Whitley, D.**, A genetic algorithm tutorial. Statistics and computing, 4, 65-85, 1994.
@@ -59,5 +65,6 @@
 >- **Nao Tokui and Hitoshi Iba**, Generation of musical rhythms with interactive evolutionary computation, In Proceedings of the 14th Annual Conference of JSAI (in Japanese), 2000.  
 >- **John A. Biles, GenJam**, A Genetic Algorithm for Generating Jazz Solos, In Proceedings of the 1994 International Computer Music Conference, ICMC, 1994.
 >- **Burton, Anthony R., and Tanya Vladimirova**, Generation of musical sequences with genetic techniques. Computer Music Journal 23(4):59–73, 1999.
->- **Brad Johanson and Riccardo Poli**, GP-Music: An Interactive Genetic Programming System, In Proceedings of the Third Annual Conference: Genetic Programming 1998, 1998.    
+>- **Brad Johanson and Riccardo Poli**, GP-Music: An Interactive Genetic Programming System, In Proceedings of the Third Annual Conference: Genetic Programming 1998, 1998.
+>
 >---

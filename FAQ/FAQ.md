@@ -10,7 +10,7 @@
 
 2. *Come posso contattare il docente per domande o chiarimenti?*
 
-    R. Nel caso in cui non devessi trovare risolvere cercando tra le risposte alle domande frequenti in questa sezione, puoi contattarmi via mail all'indirizzo pasquale.mainolfi@consalerno.it
+    R. Nel caso in cui non devessi trovare risolvere cercando tra le risposte alle domande frequenti in questa sezione, puoi contattarmi via mail all'indirizzo <pasquale.mainolfi@consalerno.it>
 
 3. *Qual è la frequenza di lezione richiesta?*
 
@@ -32,20 +32,19 @@
 
     R. Tutto il materiale didattico di cui hai bisogno lo trovi alla sezione alla sezione *Lecture Notes* nella pagina principale [(HOME)](/HOME.md).
 
-8.  *Qual è la politica relativa agli appelli straordinari?*
+8. *Qual è la politica relativa agli appelli straordinari?*
 
     R. Il docente può fissare un appello straordinario. Decido di fissare un appello straordinario solo se è strettamente necessario. A tale riguardo, ti consiglio di contattarmi via mail.
 
-9.  *Qual è la procedura per richiedere una tesi con me come relatore?*
+9. *Qual è la procedura per richiedere una tesi con me come relatore?*
 
-    R. Puoi trovare tutte le informazioni alla voce *Thesis: Procedures and Guidelines* nella pagina principale [(HOME)](/HOME.md). 
+    R. Puoi trovare tutte le informazioni alla voce *Thesis: Procedures and Guidelines* nella pagina principale [(HOME)](/HOME.md).
 
 10. *Quali sono i criteri di selezione per gli studenti che desiderano svolgere una tesi con me?*
 
     R. Ciò che tengo fortemente in considerazione nella selezione degli studenti che richiedono di fare la tesi con me, è che il lavoro proposto sia strettamente correlato con il mio campo di specializzazione. Ritengo fondamentale che gli studenti affrontino ricerche nel mio campo di competenze, ciò mi permette di offrire loro l'orientamento, il supporto e l'esperienza necessari durante il percorso di tesi. È essenziale che la loro proposta di tesi rifletta una comprensione e un'applicazione dei concetti, delle teorie e delle competenze pratiche affrontate durante i miei corsi. Questa coerenza assicura un'esperienza di apprendimento coesa e significativa sia per lo studente che per me come relatore. Riservo, poi, una particolare attenzione per i lavori sperimentali in cui gli studenti si mettono in gioco e cercano attivamente di apportare cambiamenti significativi. In particolare, incoraggio gli studenti a esplorare nuove idee, metodi e approcci innovativi nel loro lavoro di tesi. Credo che la sperimentazione sia un'opportunità preziosa per gli studenti di acquisire una comprensione più approfondita della materia e di sviluppare competenze pratiche. È in questo modo che gli studenti possono sviluppare la propria creatività, flessibilità e capacità di problem solving. Inoltre, i lavori sperimentali offrono l'opportunità di contribuire attivamente al progresso del campo di studio e di apportare un impatto significativo nella disciplina. In ultima battuta, il tempo. Un lavoro di tesi ha sempre bisogno di tempo ed io non amo fare le cose in fretta e furia!
 
-
-🇬🇧   
+🇬🇧
 
 1. *What study materials is recommended for the course?*
 
@@ -53,7 +52,7 @@
 
 2. *How can I contact the instructor for questions or clarifications?*
 
-   A: In case you couldn't find the answers to your questions in the FAQ section, you can contact me via email at pasquale.mainolfi@consalerno.it.
+   A: In case you couldn't find the answers to your questions in the FAQ section, you can contact me via email at <pasquale.mainolfi@consalerno.it>.
 
 3. *What is the required attendance for the lectures?*
 
@@ -88,5 +87,3 @@
     A: What I strongly consider when selecting students who request to do their thesis with me is that the proposed work is closely related to my field of expertise. It is essential that students undertake research within my field of specialization, as this allows me to provide them with the guidance, support, and experience needed throughout the thesis process. It is crucial that their thesis proposal reflects an understanding and application of the concepts, theories, and practical skills covered in my courses. This coherence ensures a cohesive and meaningful learning experience for both the student and me as the supervisor.  
     I also place particular emphasis on experimental work, where students take risks and actively seek to bring about significant changes. Specifically, I encourage students to explore new ideas, methods, and innovative approaches in their thesis work. I believe that experimentation provides valuable opportunities for students to gain a deeper understanding of the subject matter and develop practical skills. It is through this process that students can cultivate their creativity, adaptability, and problem-solving abilities. Additionally, experimental work offers the opportunity to actively contribute to the advancement of the field of study and make a significant impact within the discipline.  
     Lastly, time. A thesis requires an adequate amount of time, and I don't believe that approaching things hastily is the best approach.
-
-
