@@ -105,6 +105,7 @@ Specifically:
 - **Petrarca S.**, Matematica per la musica e il suono, Aracne 2010
 - **Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C.**, Introduction to algorithms. MIT press. 2022
 - **Lazzarini, V., Yi, S., Heintz, J., Brandtsegg, Ø., & McCurdy, I.**, Csound: A sound and music computing system. Springer 2016
+- **Muller M.**, Foundamentals of Music Processing, Using Python and Jupyter Notebooks Second Edition, Springer 2021
 
 > **Educational method**
 
