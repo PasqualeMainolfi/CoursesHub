@@ -139,7 +139,7 @@ To participate in this course, in addition to a personal computer with sufficien
   - [CSoundQt](#source-code-editor-and-ide)
 
 - Visualization and Analysis of audio signals Software
-  - [Sonic Visualizer](#visualization-and-analysis-of-audio-signals-software)
+  - [Sonic visualiser](#visualization-and-analysis-of-audio-signals-software)
 
 - Routing
   - [BlackHole](#routing) (MacOS)
@@ -342,7 +342,7 @@ Please visit <https://github.com/csound/csound>
 
 ---  
 
-1. Install Sonic Visualizer from <https://www.sonicvisualiser.org/>  
+1. Install Sonic visualiser from <https://www.sonicvisualiser.org/>  
    Sonic Visualiser is an open-source application designed for the visualization, analysis, and annotation of audio files. It provides a user-friendly interface for exploring the content and structure of sound recordings.
    With Sonic Visualiser, you can load audio files in various formats and examine their waveform, spectrogram, and other visual representations. These visualizations help you understand the characteristics of the sound, such as pitch, rhythm, and timbre.
 
