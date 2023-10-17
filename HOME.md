@@ -17,7 +17,7 @@ Here you will find comprehensive and up-to-date educational materials for my cou
 - **COME/05**  
 
   - SSDSP Sampling, Synthesis and Digital Sound Processing [(SSDSP Syllabus)](/COURSES/COME05/SamplingSynthesisAndDigitalSoundProcessing/SYLLABUS_AND_TOOLS.md)
-    - Bachelor Degree 
+    - Bachelor Degree
       - [SSDSP 1](/COURSES/COME05/SamplingSynthesisAndDigitalSoundProcessing/Bachelor/BachelorCourseProgram_first_year.md)
       - [SSDSP 2](/COURSES/COME05/SamplingSynthesisAndDigitalSoundProcessing/Bachelor/BachelorCourseProgram_second_year.md)
       - [SSDSP 3](/COURSES/COME05/SamplingSynthesisAndDigitalSoundProcessing/Bachelor/BachelorCourseProgram_third_year.md)
@@ -31,7 +31,7 @@ Here you will find comprehensive and up-to-date educational materials for my cou
 - **COME/06**
 
   - MSTPL Multimedia Systems, Technologies and Programming Languagues [(MSTPL Syllabus)](/COURSES/COME06/MultimediaSystemsTechnologiesAndProgrammingLanguagues/SYLLABUS_AND_TOOLS.md)  
-    - Bachelor Degree 
+    - Bachelor Degree
       - [MSTPL 1](/COURSES/COME06/MultimediaSystemsTechnologiesAndProgrammingLanguagues/Bachelor/BachelorCourseProgram_first_year.md)
       - [MSTPL 2](/COURSES/COME06/MultimediaSystemsTechnologiesAndProgrammingLanguagues/Bachelor/BachelorCourseProgram_second_year.md)
       - [MSTPL 3](/COURSES/COME06/MultimediaSystemsTechnologiesAndProgrammingLanguagues/Bachelor/BachelorCourseProgram_third_year.md)
@@ -62,6 +62,7 @@ You can find the procedure and guidelines [here](/THESIS_GUIDELINES/thesis.md).
 ---
 Puoi visionare il calendario delle lezioni, cliccando sull'anno accademico sotto:  
 You can view the lesson schedule/calendar by clicking on the academic year of the course you are interested in:
+
 - [2022/23](/CLASS_CALENDAR/CALENDAR.md#202223)
 - [2023/24](/CLASS_CALENDAR/CALENDAR.md#202324)
 
