@@ -1,6 +1,6 @@
 # **Audio and Music Information Processing for the Internet and Mobile Communication (COME/06)**  
 
-[**⬅️ BACK HOME**](/HOME.md)  
+[**⬅️ BACK HOME**](/README.md)
 
 Welcome to the "*Audio and Music Information Processing for the Internet and Mobile Communication*" course!  
 

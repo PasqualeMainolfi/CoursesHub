@@ -1,6 +1,6 @@
 # **FAQ**  
 
-[**⬅️ BACK HOME**](/HOME.md)  
+[**⬅️ BACK HOME**](/README.md)
 
 🇮🇹  
 

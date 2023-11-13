@@ -1,6 +1,6 @@
 # **Sampling, Synthesis and Digital Sound Processing 2nd Year (Bachelor)**  
 
-[**⬅️ BACK HOME**](/HOME.md)  
+[**⬅️ BACK HOME**](/README.md)
 
 |                          |     |
 |:-------------------------|:----|  

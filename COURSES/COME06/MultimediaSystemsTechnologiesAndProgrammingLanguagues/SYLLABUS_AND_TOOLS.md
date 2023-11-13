@@ -1,6 +1,6 @@
 # **Multimedia Systems, Technologies and Programming Languagues (COME/06)**
 
-[**⬅️ BACK HOME**](/HOME.md)  
+[**⬅️ BACK HOME**](/README.md)
 
 Welcome to the "*Multimedia Systems, Technologies and Programming Languagues*" course!  
 

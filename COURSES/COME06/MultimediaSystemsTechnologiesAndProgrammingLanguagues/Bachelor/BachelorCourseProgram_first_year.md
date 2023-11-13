@@ -1,6 +1,6 @@
 # **Multimedia Systems, Technologies and Programming Languagues 1st Year (Bachelor)**  
 
-[**⬅️ BACK HOME**](/HOME.md)  
+[**⬅️ BACK HOME**](/README.md) 
 
 |                          |     |
 |:-------------------------|:----|  

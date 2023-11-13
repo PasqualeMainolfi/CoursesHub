@@ -1,6 +1,6 @@
 # **Class Calendar**  
 
-[**⬅️ BACK HOME**](/HOME.md)  
+[**⬅️ BACK HOME**](/README.md)
 
 [COME/05] Sampling, Synthesis and Digital Sound Processing (SSDSP)  
 [COME/05] Digital Music Notation (DMN)
