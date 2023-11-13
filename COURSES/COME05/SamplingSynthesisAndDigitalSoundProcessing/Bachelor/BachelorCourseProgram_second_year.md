@@ -4,7 +4,7 @@
 
 |                          |     |
 |:-------------------------|:----|  
-|**Duration of the course**|30h  |
+|**Duration of the course**|25h  |
 |**Study hours**           |150h |
 |**CFA**                   |5    |
 |**Prerequisites**         |SSDSP 1 (Bachelor)|

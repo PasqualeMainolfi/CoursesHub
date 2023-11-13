@@ -184,7 +184,7 @@ If you're new to Conda, here's a quick guide to get started:
 
 ```shell
 conda activate
-conda create -n [env_name] python=3.10
+conda create -n [env_name] python=<VERSION.X>
 ```
 
 3. Activate the created environment to start working on the course materials: `conda activate course-environment`.
@@ -226,7 +226,7 @@ However, it is also possible to install Python on the main system
 
   ```shell
   brew update
-  brew install python@3.10
+  brew install python@<VERSION.X>
   ```  
 
   check your installation by running  
@@ -330,6 +330,7 @@ Please visit <https://github.com/csound/csound>
    - Pylance
    - Markdown All in One
    - Intellicode  
+   - rust-analyzer
 
 2. Install PyCharm and IntelliJ from <https://www.jetbrains.com/>  
    PyCharm is specifically designed for Python development, providing a comprehensive set of tools and features tailored to Python programmers. It offers intelligent code completion, code inspections, and quick fixes to help you write clean and efficient Python code. PyCharm also includes advanced debugging capabilities, integrated version control, and support for popular Python frameworks and libraries.
@@ -371,7 +372,11 @@ If you have downloaded and installed Python from the official website, it is cru
    ```  
 
    now, install QjackCtl, a simple GUI dialog for setting several JACK server parameters, which are properly saved between sessions, and a way control of the status of the audio server. With time, this primordial interface has become richer by including a enhanced patchbay and connection control features.  
-   Install QjackCtl from <https://qjackctl.sourceforge.io/>
+   Install QjackCtl from <https://qjackctl.sourceforge.io/> or, via `brew` on MacOs, typing:
+
+   ```shell
+   brew install qjackctl 
+   ```
 
 3. JackTrip is a Linux, macOS, or Windows multi-machine audio system used for network music performance over the Internet. It supports any number of channels (as many as the computer/network can handle) of bidirectional, high quality, uncompressed audio signal streaming. You can use it between any combination of machines e.g., one end using Linux can connect to another using macOS.  
    Install from: <https://jacktrip.github.io/jacktrip/Install/>  

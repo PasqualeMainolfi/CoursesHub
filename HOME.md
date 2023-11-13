@@ -1,14 +1,14 @@
 # **Computer Music Courses Hub**
 
 👋 Benvenuto nella repository dedicata ai miei corsi di computer music!  
-Qui troverai tutto il materiale e le informazioni sempre aggiornate sui miei corsi.  
+Qui troverai tutto il materiale e le informazioni sempre aggiornate su corsi che tengo.  
 
-**...prima di procedere, se dovrai frequentare uno dei miei corsi, ti chiederei gentilmente di unirti al canale Telegram `@PasqualeMainolfi`. Utilizzerò questo canale per aggiornamenti rapidi e comunicazioni. È un ottimo modo per rimanere connessi!**
+**...prima di procedere, ti chiederei gentilmente di unirti al canale Telegram `@PasqualeMainolfi`. Utilizzerò questo canale per aggiornamenti rapidi e comunicazioni. È un ottimo modo per rimanere connessi!**
 
 👋 Welcome to my computer music courses repo!  
 Here you will find comprehensive and up-to-date educational materials for my courses.
 
-**...before we move forward, if you're going to be taking one of my courses, I'd kindly ask you to join the Telegram channel `@PasqualeMainolfi`. I'll be using this channel for quick updates and communication. It's a great way to stay connected!**
+**...before we move forward, I'd kindly ask you to join the Telegram channel `@PasqualeMainolfi`. I'll be using this channel for quick updates and communication. It's a great way to stay connected!**
 
 ## **Courses**
 
@@ -60,13 +60,13 @@ You can find the procedure and guidelines [here](/THESIS_GUIDELINES/thesis.md).
 ## **Class Calendar**  
 
 ---
-Puoi visionare il calendario delle lezioni, cliccando sull'anno accademico sotto:  
+Puoi visionare il calendario delle lezioni, cliccando sull'anno accademico:  
 You can view the lesson schedule/calendar by clicking on the academic year of the course you are interested in:
 
 - [2022/23](/CLASS_CALENDAR/CALENDAR.md#202223)
 - [2023/24](/CLASS_CALENDAR/CALENDAR.md#202324)
 
-**Considera che le lezioni potrebbero subire modifiche. Qualunque modifica apportata sarà comunicata cia Telegrama e/o via mail.**  
+**Considera che le lezioni potrebbero subire modifiche. Qualunque modifica apportata sarà comunicata via Telegrama e/o via mail.**  
 **Please note that the lessons may be subject to changes. Any modifications will be communicated via Telegram and/or email.**
 
 ## **FAQ: Find the Answers You Need**  

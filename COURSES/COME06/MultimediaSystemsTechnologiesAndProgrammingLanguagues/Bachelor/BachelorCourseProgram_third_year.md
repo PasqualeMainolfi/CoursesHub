@@ -4,7 +4,7 @@
 
 |                          |     |
 |:-------------------------|:----|  
-|**Duration of the course**|30h  |
+|**Duration of the course**|20h  |
 |**Study hours**           |80h |
 |**CFA**                   |4    |
 |**Prerequisites**         |MSTPL 2 (Bachelor)<br>SSDSP 2 (Bachelor)|

@@ -175,7 +175,7 @@ If you're new to Conda, here's a quick guide to get started:
 
 ```shell
 conda activate
-conda create -n [env_name] python=3.10
+conda create -n [env_name] python=<VERSION.X>
 ```
 
 3. Activate the created environment to start working on the course materials: `conda activate course-environment`.
@@ -218,7 +218,7 @@ We will install Python in the virtual environment created via Conda.
 
 ```shell
 conda activate
-conda create -n [env_name] python=3.10
+conda create -n [env_name] python=<VERSION.X>
 conda activate [env_name]
 pip install numpy ffmpeg flask
 ```
@@ -230,7 +230,7 @@ However, it is also possible to install Python on the main system
 
   ```shell
   brew update
-  brew install python@3.10
+  brew install python@<VERSION.X>
   ```  
 
   check your installation by running  
