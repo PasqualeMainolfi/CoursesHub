@@ -3,7 +3,7 @@
 [**⬅️ BACK HOME**](/README.md)
 
 [COME/05] Sampling, Synthesis and Digital Sound Processing (SSDSP)  
-[COME/05] Digital Music Notation (DMN)
+[COME/05] Digital Music Notation (DMN)  
 [COME/06] Multimedia Systems, Technologies and Programming Languages (MSTPL)  
 [COME/05] Audio and Music Information Processing for the Internet and Mobile Communication (AMIPIMC)  
 
