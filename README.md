@@ -80,4 +80,31 @@ You can view the lesson schedule/calendar by clicking on the academic year of th
 If you have any questions or doubts, please check the [FAQ](/FAQ/FAQ.md) section first!  
 If the FAQ section did not provide you with the help you need, feel free to contact me at  
 @mail: <pasquale.mainolfi@consalerno.it>  
-Telegram: @PakoMaino
+Telegram: @PakoMaino  
+
+**NOTA BENE:**  
+
+🇮🇹 Tutti i materiali, inclusi testi, immagini, video, documenti e qualsiasi altra forma di contenuto
+forniti in questo contesto sono destinati esclusivamente a fini educativi e didattici.
+
+È VIETATO:
+
+- Riprodurre, distribuire o trasmettere il Materiale in qualsiasi forma senza autorizzazione esplicita.
+- Utilizzare il Materiale Didattico per scopi commerciali, inclusa la vendita o la promozione a fini finanziari.
+- Modificare o alterare il Materiale Didattico senza autorizzazione.
+
+Per qualsiasi richiesta di utilizzo diverso da quello educativo, contattare l'autore per ottenere un'autorizzazione esplicita.
+
+🇬🇧 All materials, including texts, images, videos, documents, and any other form of content 
+provided within this context, are exclusively intended for educational purposes.
+
+IT IS PROHIBITED:
+
+- Reproducing, distributing, or transmitting the Material in any form without explicit authorization.
+- Using the Educational Material for commercial purposes, including sales or promotion for financial gain.
+- Modifying or altering the Educational Material without authorization.
+
+For any request for use other than educational purposes, please contact the author to obtain explicit permission.
+
+[Pasquale Mainolfi]
+[2023]
