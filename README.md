@@ -47,9 +47,9 @@ Here you will find comprehensive and up-to-date educational materials for my cou
 ## **Lecture Notes**  
 
 ---
-Puoi trovare tutto il materiale per i miei corsi, dispense, assegni, etc... nella cartella LECTURE_NOTES.
+Puoi trovare tutto il materiale per i miei corsi, dispense, assegni, etc... nella cartella [LECTURE NOTES](/LECTURE_NOTES/).
 
-You can find all the necessary resources for the courses, including lecture notes, assignments, and additional materials in the LECTURE_NOTES folder.
+You can find all the necessary resources for the courses, including lecture notes, assignments, and additional materials in the [LECTURE NOTES](/LECTURE_NOTES/) folder.
 
 ## **Thesis: Procedures and Guidelines**  
 
