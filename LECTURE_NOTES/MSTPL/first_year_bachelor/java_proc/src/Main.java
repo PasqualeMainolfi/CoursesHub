@@ -4,9 +4,8 @@ public class Main extends PApplet {
 
     int n = 100;
 
-    public void setting() {
+    public void settings() {
         size(800, 800);
-        
     }
     
     public void setup() {
