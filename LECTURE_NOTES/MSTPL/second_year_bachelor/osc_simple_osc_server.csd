@@ -15,17 +15,19 @@ gihandle = OSCinit($PORT)
 
 instr 1
 
-kamp init 0
+kdata init 0
 
-kcheck = OSClisten(gihandle, "/sine/amp", "f",  kamp)
+kcheck = OSClisten(gihandle, "/test", "f",  kdata)
+printk2(kdata)
 
 ; if (kcheck == 1) then
 ;     asine = poscil(kamp, 200)
 ; endif
 
-asine = poscil(portk(kamp, .01), 200)
+// asine = poscil(portk(kamp, .01), 200)
 
-outs(asine, asine)
+// outs(asine, asine)
+
 endin
 
 
