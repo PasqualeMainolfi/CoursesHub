@@ -11,7 +11,7 @@ class Oscillator():
         
         self.n = 2048
         self.table = np.zeros(self.n, dtype=np.float64)
-        for i in range(n):
+        for i in range(self.n):
             self.table[i] = np.sin(2 * np.pi * i / self.n)
         
         self.phase = 0.0
