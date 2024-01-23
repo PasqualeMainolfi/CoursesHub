@@ -3,28 +3,37 @@
 int w = 1200;
 int h = 400;
 
-float xc = w / 2;
-float yc = h / 2;
-
-float a = h / 2;
-float p = w;
-float phi = 0;
-
 float incr = 0.01;
+
+
+int nwave = 5;
+Wave[] waves = new Wave[nwave];
 
 void setup() {
   size(1200, 400);
+  
+  for (int i = 0; i < nwave; i++) {
+    waves[i] = new Wave(random(100, w), random(0, h / 2), random(0, 100));
+  }
+  
 }
 
 void draw() {
 
-  	background(0);
+  background(0);
+  
+  for (int i = 0; i < w; i += 10) {
+    float y = 0.0;
+    for (Wave wave : waves) {
+      y += wave.getValue(i);
+    }
+    circle(i, y + h / 2, 5);
+  }
+   
+  for (Wave wave : waves) {
+    wave.updatePhase(incr);
+  }
+  
  
-	for (int i = 0; i < w; i += 10) {
-		float y = a * sin(2 * PI * i / p + phi);
-		circle(i, y + h / 2, 10);
-	}
-	
-	phi += incr;
 	
 }
