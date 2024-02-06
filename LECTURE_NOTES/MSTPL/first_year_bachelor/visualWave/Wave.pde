@@ -12,7 +12,7 @@ class Wave {
   }
   
   float getValue(int t) {
-    return this.amp * sin(2 * PI * t / this.period + this.phase);
+    return this.amp * sin(2 * PI * this.period * t / width + this.phase);
   }
   
   void updatePhase(float phaseIncr) {  

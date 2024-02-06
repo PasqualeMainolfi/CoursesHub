@@ -7,10 +7,15 @@ IMG_PATH = 'cat.jpg'
 VIDEO_PATH = 'coffe.mp4'
 
 
+def rescale(capture, size: tuple[int, int]) -> None:
+    capture.set(3, size[0])
+    capture.set(4, size[1])
+
+
 # main function
 def main() -> None:
     img = cv.imread(IMG_PATH) # read image
-    video = cv.VideoCapture(VIDEO_PATH)
+    video = cv.VideoCapture(0)
     
     print('[INFO] Press any key to close image...\n')
     cv.imshow("Cat 1", img)
