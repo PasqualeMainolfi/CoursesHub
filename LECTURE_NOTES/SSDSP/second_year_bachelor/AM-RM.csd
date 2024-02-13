@@ -52,10 +52,11 @@ amod2 = poscil(km * kinv, kfm * 3.4)
 ay = osc_am(ay, amod2, 1)
 
 
-ktndx = phasor(expseg(3, p3 / 2, p4, p3 / 2, 3))
+ktndx = phasor(expseg(3, p3 / 2, p4, p3 / 2, 3) / p3)
+; ktndx = phasor(1 / p3)
 ktinv = tablei(ktndx, 1, 1)
 
-; ay *= ktinv
+ay *= ktinv
 
 ; ay = AM(kinv * kamp, kfc, kdc, kinv, kfm)
 
@@ -71,11 +72,11 @@ endin
 </CsInstruments>
 <CsScore>
 
-f 1 0 2049 5 .001 48 1 2000 .000001
+f 1 0 2049 5 .001 48 1 2000 .000001 // -> genera una table
 
 t0 60
 
-i 1 0 10 15 200 100
+i 1 0 10 1500 200 100
 
 </CsScore>
 </CsoundSynthesizer>
