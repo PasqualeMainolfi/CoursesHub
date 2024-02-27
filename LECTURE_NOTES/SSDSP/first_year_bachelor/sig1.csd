@@ -6,7 +6,7 @@
 
 // HEADER 
 sr = 44100
-ksmps = 1
+ksmps = 64
 nchnls = 2
 nchnls_i = 1
 0dbfs = 1
@@ -21,6 +21,23 @@ k-sig -> ksig = segnale di controllo (kr / ksmps)
 i-data -> idata = valore istantaneo 
 
 */
+
+
+opcode ricorsive_additive, a, kkio
+kf0, ka0, icomp_num, icount xin
+
+kfreq = kf0 * (icount + 1)
+kamp = ka0 / (icount + 1)
+asig = poscil(kamp, kfreq)
+
+if (icount < icomp_num - 1) then
+    asig += ricorsive_additive(kf0, ka0, icomp_num, icount + 1)
+endif
+
+xout(asig)
+endop
+
+
 
 
 instr 1
@@ -48,6 +65,20 @@ outs(ay, ay)
 endin
 
 
+instr 2
+
+kf = 90
+ka = ampdb(-6)
+inum = 100
+
+additive = ricorsive_additive(kf, ka, inum)
+kinv = expseg(0.001, 0.01, 1, p3 - 0.01, 0.000001)
+additive *= kinv
+
+outs(additive, additive)
+
+endin
+
 
 
 </CsInstruments>
@@ -62,13 +93,17 @@ p3 = duration
  
 t0 60 
 
-i 1 0 30 -6 
+; i 1 0 30 -6 
+
+
 
 ;i 1 0 3 -6 250
 ;i 1 .5 3 -3 300
 ;i 1 1.2 5 -1 210
  
- 
+
+i 2 0 2
+
  
  </CsScore>
 </CsoundSynthesizer>

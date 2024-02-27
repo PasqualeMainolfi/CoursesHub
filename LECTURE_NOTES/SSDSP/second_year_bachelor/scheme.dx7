@@ -1,0 +1,11 @@
+
+m2: im2, r2, 0
+m4: im4, r4, m5
+m5: im5, r5, m6
+m6: im6, r6, m6
+
+c1: ac1, afc1, m2
+c3: ac3, afc3, m4
+
+o1 <- c1
+o1 <- c3
