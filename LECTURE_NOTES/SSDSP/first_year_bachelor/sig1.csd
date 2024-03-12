@@ -22,12 +22,33 @@ i-data -> idata = valore istantaneo
 
 */
 
+seed(0)
+
+
+// Esempio... fate VOI!
+opcode get_amp_fac, k, 0
+kamp = random(0.1, 1)
+xout(kamp)
+endop
+
+opcode get_freq_fac, k, 0
+kfreq = random(-100, 100)
+xout(kfreq)
+endop
+
+void ciao(string nome) {
+    println(nome)
+}
+
 
 opcode ricorsive_additive, a, kkio
 kf0, ka0, icomp_num, icount xin
 
-kfreq = kf0 * (icount + 1)
-kamp = ka0 / (icount + 1)
+kfreq = (kf0 * (icount + 1))
+kamp = (ka0 / (icount + 1)) * ((icount + 1) % 2)
+kfreq += get_freq_fac()
+kamp *= get_amp_fac()
+
 asig = poscil(kamp, kfreq)
 
 if (icount < icomp_num - 1) then
@@ -38,6 +59,8 @@ xout(asig)
 endop
 
 
+
+gamaster init 0
 
 
 instr 1
@@ -60,7 +83,11 @@ kinv = expseg(0.0001, iatk, 1, irel, 0.001)
 
 ay = ay * kinv
 
-outs(ay, ay)
+gamaster += ay
+
+; outs(ay, ay)
+
+
 
 endin
 
@@ -75,7 +102,19 @@ additive = ricorsive_additive(kf, ka, inum)
 kinv = expseg(0.001, 0.01, 1, p3 - 0.01, 0.000001)
 additive *= kinv
 
-outs(additive, additive)
+; outs(additive, additive)
+
+gamaster += additive
+
+endin
+
+
+instr Master
+
+aouts = gamaster
+
+outs(aouts, aouts)
+clear(gamaster)
 
 endin
 
@@ -93,11 +132,10 @@ p3 = duration
  
 t0 60 
 
+i "Master" 0 60
+
 ; i 1 0 30 -6 
-
-
-
-;i 1 0 3 -6 250
+; i 1 0 3 -6 250
 ;i 1 .5 3 -3 300
 ;i 1 1.2 5 -1 210
  
