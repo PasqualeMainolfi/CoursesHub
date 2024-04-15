@@ -36,10 +36,6 @@ kfreq = random(-100, 100)
 xout(kfreq)
 endop
 
-void ciao(string nome) {
-    println(nome)
-}
-
 
 opcode ricorsive_additive, a, kkio
 kf0, ka0, icomp_num, icount xin
@@ -145,6 +141,8 @@ i 2 0 2
  
  </CsScore>
 </CsoundSynthesizer>
+
+
 <bsbPanel>
  <label>Widgets</label>
  <objectName/>
@@ -159,7 +157,7 @@ i 2 0 2
   <g>240</g>
   <b>240</b>
  </bgcolor>
- <bsbObject type="BSBKnob" version="2">
+ <bsbObject version="2" type="BSBKnob">
   <objectName>freq</objectName>
   <x>86</x>
   <y>311</y>
@@ -189,7 +187,7 @@ i 2 0 2
   <flatstyle>true</flatstyle>
   <integerMode>false</integerMode>
  </bsbObject>
- <bsbObject type="BSBScope" version="2">
+ <bsbObject version="2" type="BSBScope">
   <objectName/>
   <x>46</x>
   <y>31</y>
