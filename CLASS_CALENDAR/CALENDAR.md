@@ -118,3 +118,37 @@
 |29|**12:00 - 14:00** AMIPIMC I B<br>**14:00 - 16:00** AMIPIMC II B<br>**16:00 - 18:00** MSPTL I B<br>**18:00 - 20:00** MSPTL II B|
 |30|**14:00 - 16:00** MSTPL III T<br>**16:00 - 18:00** MSTPL II T<br>**18:00 - 20:00** MSTPL I T|
 |||
+
+|May||
+|:---|:---|
+|6|**12:00 - 14:00** ACLE III T<br>**14:00 - 16:00** MSPTL III T<br>**16:00 - 18:00** MSPTL II T<br>**18:00 - 20:00** MSPTL I T|
+|7|**12:00 - 14:00** ACLE III T<br>**14:00 - 16:00** SSDSP I B<br>**16:00 - 18:00** SSDSP I T<br>**18:00 - 20:00** SSDSP II T|
+|13|**14:00 - 16:00** ACLE III T<br>**16:00 - 18:00** ACLE I B|
+|14|**14:00 - 16:00** SSDSP I B<br>**16:00 - 18:00** SSDSP I T<br>**18:00 - 20:00** SSDSP II T|
+|20|**14:00 - 16:00** MSPTL III T<br>**16:00 - 18:00** MSPTL II T<br>**18:00 - 20:00** MSPTL I T|
+|21|**14:00 - 16:00** SSDSP I B<br>**16:00 - 18:00** SSDSP I T<br>**18:00 - 20:00** SSDSP II T|
+|27|**14:00 - 16:00** MSTPL II B<br>**16:00 - 18:00** MSTPL II T<br>**18:00 - 20:00** MSTPL I T|
+|28|**14:00 - 16:00** ACLE III T<br>**16:00 - 18:00** ACLE I B|
+|||
+
+|June||
+|:---|:---|
+|3|**14:00 - 16:00** ACLE III T<br>**16:00 - 18:00** ACLE I B|
+|4|**12:00 - 14:00** AMIPMC II B<br>**14:00 - 16:00** SSDSP I B<br>**16:00 - 18:00** SSDSP I T<br>**18:00 - 20:00** SSDSP II T|
+|10|**12:00 - 14:00** AMIPMC II B<br>**12:00 - 14:00** MSPTL II B<BR>**16:00 - 18:00** MSPTL II T<br>**18:00 - 20:00** MSPTL I T|
+|11|**14:00 - 16:00** ACLE III T<br>**16:00 - 18:00** ACLE I B|
+|17|**13:00 - 14:00** MSPTL II T<br>**14:00 - 16:00** MSPTL I T<br>**16:00 - 18:00** MSPTL I B<br>**18:00 - 20:00** MSPTL II B|
+|18|**12:00 - 14:00** AMIPMC II B<br>**14:00 - 16:00** SSDSP I T<br>**16:00 - 18:00** ACLE III T|
+|24|**12:00 - 14:00** MSPTL I T<br>**14:00 - 16:00** MSPTL I B<br>**16:00 - 18:00** AMIPMC II B<br>**18:00 - 20:00** MSPTL II B|
+|25|**12:00 - 14:00** SSDSP I T<br>**14:00 - 16:00** AMIPMC I B<br>**16:00 - 18:00** AMIPMC II B|
+|||
+
+|July||
+|:---|:---|
+|1|**12:00 - 14:00** MSPTL I T<br>**14:00 - 16:00** MSPTL I B<br>**16:00 - 18:00** MSTPL II B<br>**18:00 - 20:00** AMIPMC II B|
+|2|**14:00 - 16:00** AMIPMC I B<br>**16:00 - 18:00** ACLE III T|
+|8|**14:00 - 16:00** ACLE III T<br>**16:00 - 18:00** ACLE I B|
+|9|**12:00 - 14:00** AMIPMC I B<br>**14:00 - 16:00** MSTPL I B<br>**16:00 - 18:00** AMIPMC II B<br>**18:00 - 20:00** MSTPL II B|
+|15|**12:00 - 14:00** AMIPMC I B<br>**14:00 - 16:00** MSTPL I B<br>**16:00 - 18:00** AMIPMC II B<br>**18:00 - 20:00** MSTPL II B|
+|16|**12:00 - 14:00** AMIPMC I B<br>**14:00 - 16:00** ACLE III T|
+|||
