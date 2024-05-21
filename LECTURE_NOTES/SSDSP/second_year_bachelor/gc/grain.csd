@@ -90,12 +90,13 @@ endin
 
 instr SAMPLE_CONSTRUCTOR
 
+ispeed init 4
+istep = ispeed / 10
 update:
 
     idur = random:i(1, 3)
     idur_ceil = ceil(idur * sr)
     iphase_start = random:i(0, ftlen(gifile_tab) - idur_ceil)
-    ispeed = random:i(0.1, 10)
     idel = random:i(0.001, 0.7)
 
         timout(0, idel, goo)
@@ -104,6 +105,7 @@ update:
 goo:
     // schedulatore 
     schedule("SAMPLE_GRAIN", 0, idur_ceil / sr, idur_ceil, iphase_start, ispeed)
+    ispeed -= istep
 
 endin
 
@@ -119,7 +121,7 @@ if (kii < p4) then
     ksi += p6 + poscil(0.5, 100)
 endif
 
-asig *= tablei:a(phasor:a(1 / p3), giperc, 1) * ampdb(-6)
+asig *= tablei:a(phasor:a(1 / p3), giperc, 1) * ampdb(-6) // add env
 
 outs(asig, asig)
 
