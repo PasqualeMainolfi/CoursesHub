@@ -16,8 +16,6 @@ x <= -1 -> -2 / 3
 x >= +1 -> 2 / 3
 */
 
-
-
 #define AUDIO_PATH #"/Users/pm/AcaHub/Coding/Qubx/QubxPython/audio_files_for_test/suzanne_mono.wav"#
 
 instr 1 
@@ -37,10 +35,6 @@ asig = interp(ksample)
 asig = tone(tone(asig, poscil:a(250, 0.5)), 150)
 outs(asig, asig)
 endin
-
-
-
-
 
 </CsInstruments>
 <CsScore>
