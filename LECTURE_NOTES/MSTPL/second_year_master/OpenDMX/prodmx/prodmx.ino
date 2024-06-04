@@ -1,21 +1,33 @@
 #include <Conceptinetics.h>
 
-#define MAXCHNS (3);
-#define SWITCHPIN (2);
+#define MAXCHNS (5)
+#define SWITCHPIN (2)
 
-DMX_Master dmx(MAXCHNS, SWITCHPIN);
+DMX_Master master(MAXCHNS, SWITCHPIN);
 
 void setup() 
 {
-  dmx.enable();
-
+  master.enable();
+  master.setChannelRange(1, 5, 10); // init channels state
 }
 
 
 void loop()
 {
+  
+  for (int i = 0; i <= 255; ++i) {
+    master.setChannelValue(4, i);
+    delay(25);
+  }
 
-  dmx.setChannelValue(ch, value); // ch = canale, value = valore 0 0 - 255
+  // delay(50);
+
+  // for (int i = 0; i <= 255; ++i) {
+  //   master.setChannelValue(9, i);
+  //   delay(25);
+  // }
+
 
 }
+
 
