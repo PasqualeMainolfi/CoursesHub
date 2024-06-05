@@ -90,38 +90,39 @@ endin
 
 instr SAMPLE_CONSTRUCTOR
 
-ispeed init 4
-istep = ispeed / 10
+ihop init 0
 update:
 
-    idur = random:i(1, 3)
-    idur_ceil = ceil(idur * sr)
-    iphase_start = random:i(0, ftlen(gifile_tab) - idur_ceil)
-    idel = random:i(0.001, 0.7)
+    iwinsize = 2048 // con questi params si comporta come una STFT nel tempo
+    ihop_size = iwinsize / 4
+    idirection = random:i(0, 0)
+    ispeed = random:i(1, 1)
+    idel = (ihop_size / sr) / ispeed // togliere il div (/ ispeed) per mantenere la stessa durata
 
         timout(0, idel, goo)
         reinit update
 
 goo:
     // schedulatore 
-    schedule("SAMPLE_GRAIN", 0, idur_ceil / sr, idur_ceil, iphase_start, ispeed)
-    ispeed -= istep
+    schedule("SAMPLE_GRAIN", 0, iwinsize / sr, iwinsize, ihop, idirection, ispeed)
+    ihop += ihop_size
+    if (ihop + iwinsize >= ftlen(gifile_tab)) then
+        ihop = 0
+    endif 
 
 endin
 
 
-
 instr SAMPLE_GRAIN
 
-ksi init 0
 kii init 0
 if (kii < p4) then
-    asig = tablei:a(interp((ksi + p5) % ftlen(gifile_tab)) , gifile_tab)
+    kindex = abs((p6 * ftlen(gifile_tab)) - p5 - kii * p7)
+    asig = tablei:a(kindex, gifile_tab)
     kii += 1
-    ksi += p6 + poscil(0.5, 100)
 endif
 
-asig *= tablei:a(phasor:a(1 / p3), giperc, 1) * ampdb(-6) // add env
+asig *= tablei:a(phasor:a(1 / p3), gigauss, 1) * ampdb(-8) // add env
 
 outs(asig, asig)
 
