@@ -1,0 +1,114 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 ArialMT;\f1\froman\fcharset0 Times-Roman;\f2\fswiss\fcharset0 Helvetica;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red26\green26\blue26;\red148\green179\blue241;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c13333\c13333\c13333;\cssrgb\c64314\c76078\c95686;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs20 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 /*\
+\'a0* datalogger\
+\'a0*\
+\'a0* verde SX\
+\'a0* rosso DX\
+\'a0* giallo C\
+\'a0*/\
+#include <SPI.h>\
+#include <SD.h>\
+\
+File data_file;\
+\
+// pin select dell'SD card\
+const int chipSelect = 10;\
+\
+int gsr_data;\
+\
+int btn_play_write = 2;\
+int btn_stop_write = 3;\
+int btn_clear = 4;\
+\
+bool write_sd = false, close_sd = false;\
+\
+void setup() \{\
+\'a0 Serial.begin(9600);\
+\
+\'a0 // differenza di potenziale GSR\
+\'a0 pinMode(8, INPUT); // Setup for leads off detection LO +\
+\'a0 pinMode(9, INPUT); // Setup for leads off detection LO -\
+\
+\'a0 pinMode(btn_play_write, INPUT_PULLUP);\
+\'a0 pinMode(btn_stop_write, INPUT_PULLUP);\
+\'a0 pinMode(btn_clear, INPUT_PULLUP);\
+\
+\'a0 Serial.print("Initializing SD card...");\
+\
+\'a0 if (!SD.begin()) \{\
+\'a0 \'a0 Serial.println("initialization failed!");\
+\'a0 \'a0 return;\
+\'a0 \}\
+\'a0 Serial.println("initialization done.");\
+\
+\'a0 // apri file in scrittura\
+\'a0 data_file = SD.open("DATA_GSR.txt", FILE_WRITE);\
+\}\
+\
+void loop() \{\
+\'a0 if(!digitalRead(btn_play_write)) \{\
+\'a0 \'a0 write_sd = true;\
+\'a0 \}\
+\
+\'a0 if(!digitalRead(btn_stop_write)) \{\
+\'a0 \'a0 close_sd = true;\
+\'a0 \}\
+\'a0\
+\'a0 if((digitalRead(8) == 1) || (digitalRead(9) == 1)) \{ //check if leads are removed\
+\'a0 \'a0 Serial.println("sensore non connesso ...");\
+\'a0 \}\
+\'a0 else\{\
+\'a0 \'a0 gsr_data =analogRead(A0); \'a0 // valori di ampiezza della tensione di uscita dal sensore GSR\
+\'a0 \'a0 //Serial.println(gsr_data);\
+\'a0 \}\
+\'a0 delay(1);\
+\
+\'a0 // se il file esiste\
+\'a0 if (data_file) \{\
+\'a0 \'a0 //Serial.println("file esistente! ");\
+\
+\'a0 \'a0 if(write_sd) \{ \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 // se ho premuto pulsante sul pin D2\
+\'a0 \'a0 \'a0 data_file.println(gsr_data);\
+\'a0 \'a0 \'a0 Serial.print("sto scrivendo: ");\
+\'a0 \'a0 \'a0 Serial.println(gsr_data);\
+\'a0 \'a0 \}\
+\'a0 \'a0\
+\'a0 \'a0 if(close_sd)\{\
+\'a0 \'a0 \'a0 // chiudi file in scrittura\
+\'a0 \'a0 \'a0 data_file.close();\
+\'a0 \'a0 \'a0 write_sd = false;\
+\'a0 \'a0 \}\
+\'a0 \'a0\
+\'a0 \} else \{\
+\'a0 \'a0 Serial.println("file scritto ! ");\
+\'a0 \} \'a0\
+\'a0\
+\}\
+\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf0 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\fs21 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs24 \cf3 \cb4 \strokec3 \
+\pard\pardeftab720\partightenfactor0
+
+\fs21 \cf0 \cb1 \strokec2 \
+}
