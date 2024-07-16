@@ -8,130 +8,16 @@
 #define SAMPLE_TIME_MS (5)
 #define THRESHOLD (365)
 
-struct BpmData 
-{
-  bool is_peak;
-  long prev_peak_time;
-  int last_value;
-  unsigned long prev_time;
-  int bpm;
 
-  BpmData() 
-  : is_peak(true), prev_peak_time(0), last_value(0), prev_time(0), bpm(0)
-  { }
-
-  void detect_bpm(int data_in, unsigned long start_time) {
-    unsigned long rr_interval = 0;
-    if (data_in != this->last_value && data_in > THRESHOLD) {
-      if (!this->is_peak) {
-        rr_interval = start_time - this->prev_peak_time;
-        this->prev_peak_time = start_time;
-        this->is_peak = true;
-      }
-    } else {
-      this->is_peak = false;
-    }
-    
-    this->last_value = data_in;
-    if (start_time - this->prev_time >= SAMPLE_TIME_MS) { 
-      this->prev_time = start_time;
-      if (rr_interval > 0) {
-        this->bpm = 60000 / rr_interval;
-        // Serial.println("[INFO BPM] BPM: " + String(bpm));
-      }
-    }
-  }
-};
-
-class ManageFiles {
-  public: 
-    ManageFiles(String dir_name, String data_name) 
-    : dir_name(dir_name), data_name(data_name), ext(".crd"), write(false), count_files(0)
-    { };
-
-    ~ManageFiles() { };
-
-    bool create_file() {
-      this->write = true;
-      String buffer_dir_file = this->dir_name + String(EEPROM.read(EEPROM_ADDRESS)) + "/" + this->data_name + String(this->count_files) + this->ext;
-      Serial.println(buffer_dir_file);
-      this->data_file = SD.open(buffer_dir_file, FILE_WRITE);
-      if (!this->data_file) { 
-        Serial.println("[ERROR] File not initialized!");
-        return false;
-      }
-      return true;
-    };
-
-    void write_to(int data_in, int bpm_in) {
-      if (this->write) {
-        data_file.print(data_in);
-        data_file.print(",");
-        data_file.print(bpm_in);
-        data_file.print("\n");
-      }
-    }
-
-    void save_and_close() {
-      this->data_file.close();
-      Serial.println("[INFO] Close and save file.");
-      this->count_files = this->count_files >= 10 ? 0 : this->count_files + 1;
-      this->write = false;
-    }
-
-    String dir_name;
-    String data_name;
-    String ext;
-    bool write;
-    File data_file;
-    int count_files;
-    
-};
-
-String dir_name = String("F");
-String data_name = String("DATA");
-
-bool remove_directory(String name) {
-  File dir = SD.open(name);
-  if (!dir) {
-    Serial.println("[ERROR] Directory not exists!");
-    return false;
-  }
-
-  File subfile;
-  while (subfile = dir.openNextFile()) {
-    if (subfile.isDirectory()) {
-      String subfile_dir_name = name + "/" + subfile.name();
-      remove_directory(subfile_dir_name);
-    } else {
-      SD.remove(subfile.name());
-    }
-    subfile.close();
-  }
-  dir.close();
-  SD.rmdir(name);
-  return true;
-};
-
-void erase_sd() {
-  Serial.println("[INFO] Erase SD...");
-  int value_at = EEPROM.read(EEPROM_ADDRESS);
-  for (int i = 1; i <= value_at; ++i) {
-    String buffer_clear = dir_name + String(i);
-    if (!remove_directory(buffer_clear)) {
-      Serial.println("[ERROR] Problem in remove directory!");
-      return;
-    }
-  }
-  Serial.println("[INFO] Clear eeprom...");
-  EEPROM.put(EEPROM_ADDRESS, 1);
-  return;
-};
-
+String dir_name = "F";
+String data_name = "data";
+String ext = ".crd";
 
 Sd2Card card;
 SdVolume volume;
 File data_file;
+
+int count_file = 0;
 
 // pin select dell'SD card
 const int chipSelect = 10;
@@ -144,9 +30,12 @@ int btn_clear = 4;
 
 bool write_sd = false;
 
-BpmData bpm_data;
-ManageFiles manage_files(dir_name, data_name);
-
+bool is_peak = true;
+long prev_peak_time = 0;
+long rr_interval;
+long last_value = 0;
+unsigned long prev_time = 0;
+int bpm = 0;
 
 void setup() {
   Serial.begin(115200);
@@ -192,23 +81,47 @@ void setup() {
   Serial.println("[INFO] Start time...");
 }
 
-
 void loop() {
 
   if (card.init(SPI_HALF_SPEED, chipSelect)) {
     if (!digitalRead(btn_play_write)) {
-      manage_files.create_file();
+      String buffer_dir_file = dir_name + String(EEPROM.read(EEPROM_ADDRESS)) + "/" + data_name + String(count_file) + ext;
+      Serial.println(buffer_dir_file);
+      data_file = SD.open(buffer_dir_file, FILE_WRITE);
+      if (!data_file) {
+        Serial.println("[ERROR] Problem in create data file!");
+      }
+      write_sd = true;
     }
 
-    manage_files.write_to(gsr_data, bpm_data.bpm);
+    if (write_sd) {
+      data_file.print(gsr_data);
+      data_file.print(",");
+      data_file.print(bpm);
+      data_file.print("\n");
+      // Serial.print("[INFO] Sto scrivendo: ");
+    }
+    
     Serial.println(gsr_data);
 
     if (!digitalRead(btn_clear)) {
-      erase_sd();
+      Serial.println("[INFO] Erase SD...");
+      // int value_at = EEPROM.read(EEPROM_ADDRESS);
+      // for (int i = 1; i <= value_at; ++i) {
+      //   String buffer_clear = dir_name + String(i);
+      //   if (!remove_directory(buffer_clear)) {
+      //     Serial.println("[ERROR] Problem in remove directory!");
+      //   }
+      // }
+      Serial.println("[INFO] Clear eeprom...");
+      EEPROM.put(EEPROM_ADDRESS, 1);
     }
 
     if(!digitalRead(btn_stop_write) && write_sd) {
-      manage_files.save_and_close();
+      data_file.close();
+      Serial.println("[INFO] Ho interrotto la scrittura e salvato il file.");
+      count_file = count_file >= 10 ? 0 : count_file + 1;
+      write_sd = false;
     } 
   } else {
     Serial.println("[INFO] Card not present!");
@@ -217,17 +130,60 @@ void loop() {
     if (!init_sd) {
       Serial.println("[ERROR] SD not initialized!");
     }
-    delay(10);
+    delay(100);
   }
 
-  bool leads = (digitalRead(GSR_PLUS) == 1) || (digitalRead(GSR_MINUS) == 1);
-  if (leads) { // check if leads are removed
+  if ((digitalRead(GSR_PLUS) == 1) || (digitalRead(GSR_MINUS) == 1)) { // check if leads are removed
     Serial.println("[INFO] Sensore non connesso...");
-    while (leads) { ; }
+    while ((digitalRead(GSR_PLUS) == 1) || (digitalRead(GSR_MINUS) == 1)) { ; }
+  }
+  gsr_data = analogRead(A0);  // valori di ampiezza della tensione di uscita dal sensore GSR
+
+  unsigned long start_time = millis();
+
+  if (gsr_data != last_value && gsr_data > THRESHOLD) {
+    if (!is_peak) {
+      rr_interval = start_time - prev_peak_time;
+      prev_peak_time = start_time;
+      is_peak = true;
+    }
+  } else {
+    is_peak = false;
+  }
+  
+  last_value = gsr_data;
+  while (start_time - prev_time < SAMPLE_TIME_MS) { 
+    prev_time = start_time;
   }
 
-  gsr_data = analogRead(A0);  // valori di ampiezza della tensione di uscita dal sensore GSR
-  unsigned long start_time = millis();
-  bpm_data.detect_bpm(gsr_data, start_time);
+  if (rr_interval > 0) {
+    bpm = 60000 / rr_interval;
+    // Serial.println("[INFO BPM] BPM: " + String(bpm));
+  }
+
+  delay(1);
   
+}
+
+
+bool remove_directory(String name) {
+  File dir = SD.open(name);
+  if (!dir) {
+    Serial.println("[ERROR] Directory not exists!");
+    return false;
+  }
+
+  File subfile;
+  while (subfile = dir.openNextFile()) {
+    if (subfile.isDirectory()) {
+      String subfile_dir_name = name + "/" + subfile.name();
+      remove_directory(subfile_dir_name);
+    } else {
+      SD.remove(subfile.name());
+    }
+    subfile.close();
+  }
+  dir.close();
+  SD.rmdir(name);
+  return true;
 }
