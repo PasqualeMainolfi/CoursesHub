@@ -6,16 +6,17 @@
 #define GSR_PLUS (8)
 #define GSR_MINUS (9)
 #define SAMPLE_TIME_MS (5)
-#define THRESHOLD (365)
+#define THRESHOLD (400)
+#define MAX_FOLDERS (100)
+#define MAX_FILES_FOR_FOLDER (30)
 
 
 String dir_name = "F";
-String data_name = "data";
+String data_name = "D";
 String ext = ".crd";
 
 Sd2Card card;
 SdVolume volume;
-File data_file;
 
 int count_file = 0;
 
@@ -30,15 +31,14 @@ int btn_clear = 4;
 
 bool write_sd = false;
 
-bool is_peak = true;
-long prev_peak_time = 0;
-long rr_interval;
-long last_value = 0;
-unsigned long prev_time = 0;
+int prev_time = 0;
 int bpm = 0;
+int prev_bpm = 0;
+
+File data_file;
 
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(9600);
   while (!Serial) { ; }
 
   // differenza di potenziale GSR
@@ -59,71 +59,23 @@ void setup() {
   Serial.println("[INFO] Initialization done.");
 
   int value_from_eeprom = EEPROM.read(EEPROM_ADDRESS) + 1;
-  value_from_eeprom = value_from_eeprom > 100 ? 1 : value_from_eeprom;
+  value_from_eeprom = value_from_eeprom > MAX_FOLDERS ? 1 : value_from_eeprom;
+  EEPROM.put(EEPROM_ADDRESS, value_from_eeprom);
 
   String buffer_dir = dir_name + String(value_from_eeprom);
 
+  // controllare qui
   if (SD.exists(buffer_dir)) {
-    Serial.println("[INFO] Folder exist! Remove and Overwrite it...");
-    if (!remove_directory(buffer_dir)) {
-      Serial.println("[ERROR] Problem in remove directory!");
-      return;
-    }
+    Serial.println("[INFO] Remove and Overwrite it...");
+    removeFolder(buffer_dir);
   }
 
-  EEPROM.put(EEPROM_ADDRESS, value_from_eeprom);
-  Serial.println(buffer_dir);
-  if (!SD.mkdir(buffer_dir)) {
-    Serial.println("[ERROR] Failed to create a directory!");
-    return;
-  }
-
-  Serial.println("[INFO] Start time...");
+  Serial.println("[INFO] Start...");
 }
 
 void loop() {
 
-  if (card.init(SPI_HALF_SPEED, chipSelect)) {
-    if (!digitalRead(btn_play_write)) {
-      String buffer_dir_file = dir_name + String(EEPROM.read(EEPROM_ADDRESS)) + "/" + data_name + String(count_file) + ext;
-      Serial.println(buffer_dir_file);
-      data_file = SD.open(buffer_dir_file, FILE_WRITE);
-      if (!data_file) {
-        Serial.println("[ERROR] Problem in create data file!");
-      }
-      write_sd = true;
-    }
-
-    if (write_sd) {
-      data_file.print(gsr_data);
-      data_file.print(",");
-      data_file.print(bpm);
-      data_file.print("\n");
-      // Serial.print("[INFO] Sto scrivendo: ");
-    }
-    
-    Serial.println(gsr_data);
-
-    if (!digitalRead(btn_clear)) {
-      Serial.println("[INFO] Erase SD...");
-      // int value_at = EEPROM.read(EEPROM_ADDRESS);
-      // for (int i = 1; i <= value_at; ++i) {
-      //   String buffer_clear = dir_name + String(i);
-      //   if (!remove_directory(buffer_clear)) {
-      //     Serial.println("[ERROR] Problem in remove directory!");
-      //   }
-      // }
-      Serial.println("[INFO] Clear eeprom...");
-      EEPROM.put(EEPROM_ADDRESS, 1);
-    }
-
-    if(!digitalRead(btn_stop_write) && write_sd) {
-      data_file.close();
-      Serial.println("[INFO] Ho interrotto la scrittura e salvato il file.");
-      count_file = count_file >= 10 ? 0 : count_file + 1;
-      write_sd = false;
-    } 
-  } else {
+  if (!card.init(SPI_HALF_SPEED, chipSelect)) {
     Serial.println("[INFO] Card not present!");
     while (!card.init(SPI_HALF_SPEED, chipSelect)) { ; }
     bool init_sd = SD.begin(chipSelect);
@@ -133,57 +85,96 @@ void loop() {
     delay(100);
   }
 
+  if (!digitalRead(btn_play_write)) {
+    
+    String dir_path = dir_name + String(EEPROM.read(EEPROM_ADDRESS));
+    if (!SD.exists(dir_path)) {
+      SD.mkdir(dir_path);
+    }
+
+    String buffer_file = dir_path + "/" + data_name + String(count_file) + ext;
+    Serial.println(buffer_file);
+    data_file = SD.open(buffer_file, FILE_WRITE);
+    if (!data_file) {
+      Serial.println("[ERROR] Problem in create data file!");
+    } else {
+      write_sd = true;
+    }
+  }
+
+  if (data_file && write_sd) {
+    data_file.print(gsr_data);
+    data_file.print(",");
+    data_file.print(bpm);
+    data_file.print("\n");
+    // Serial.print("[INFO] Sto scrivendo: ");
+  }
+  
+  Serial.print(bpm);
+  Serial.print(",");
+  Serial.println(gsr_data);
+
+  if (!digitalRead(btn_clear)) {
+    Serial.println("[INFO] Erase SD...");
+    for (int i = 1; i <= 100; ++i) {
+      String folder_path = dir_name + String(i);
+      removeFolder(folder_path);
+    }
+
+    Serial.println("[INFO] Clear eeprom");
+    EEPROM.put(EEPROM_ADDRESS, 1);
+    Serial.print("EEPROM ADDRESS: ");
+    Serial.println(EEPROM.read(EEPROM_ADDRESS));
+  }
+
+  if(!digitalRead(btn_stop_write) && write_sd) {
+    data_file.close();
+    Serial.println("[INFO] Ho interrotto la scrittura e salvato il file.");
+    count_file = count_file >= 30 ? 0 : count_file + 1;
+    write_sd = false;
+  } 
+
   if ((digitalRead(GSR_PLUS) == 1) || (digitalRead(GSR_MINUS) == 1)) { // check if leads are removed
     Serial.println("[INFO] Sensore non connesso...");
     while ((digitalRead(GSR_PLUS) == 1) || (digitalRead(GSR_MINUS) == 1)) { ; }
   }
+
   gsr_data = analogRead(A0);  // valori di ampiezza della tensione di uscita dal sensore GSR
 
-  unsigned long start_time = millis();
 
-  if (gsr_data != last_value && gsr_data > THRESHOLD) {
-    if (!is_peak) {
-      rr_interval = start_time - prev_peak_time;
-      prev_peak_time = start_time;
-      is_peak = true;
-    }
-  } else {
-    is_peak = false;
-  }
-  
-  last_value = gsr_data;
-  while (start_time - prev_time < SAMPLE_TIME_MS) { 
+  if (gsr_data >= THRESHOLD) {
+    int start_time = millis();
+    float rr = (float) (start_time - prev_time) / 1000.0;
+    bpm = (int) ceil(60.0 / rr);
+    bpm = bpm < 1024 ? bpm : prev_bpm;
     prev_time = start_time;
+    prev_bpm = bpm;
   }
 
-  if (rr_interval > 0) {
-    bpm = 60000 / rr_interval;
-    // Serial.println("[INFO BPM] BPM: " + String(bpm));
-  }
-
-  delay(1);
+  delay(5);
   
 }
 
-
-bool remove_directory(String name) {
-  File dir = SD.open(name);
-  if (!dir) {
-    Serial.println("[ERROR] Directory not exists!");
-    return false;
+void removeFolder(String folder_path) {
+  File root = SD.open(folder_path);
+  if (!root || !root.isDirectory()) {
+    Serial.println("[ERROR] " + folder_path + " isn't a valid directory!");
+    return;
   }
 
-  File subfile;
-  while (subfile = dir.openNextFile()) {
-    if (subfile.isDirectory()) {
-      String subfile_dir_name = name + "/" + subfile.name();
-      remove_directory(subfile_dir_name);
-    } else {
-      SD.remove(subfile.name());
+  File file = root.openNextFile();
+  while (file) {
+    String file_name = String(file.name());
+    if (!file_name.startsWith("_") || !file_name.startsWith("~")) {
+      String full_path = folder_path + "/" + file_name;
+      SD.remove(full_path);
+      Serial.println("[INFO] Remove file: " + full_path);
     }
-    subfile.close();
+    file.close();
+    file = root.openNextFile();
   }
-  dir.close();
-  SD.rmdir(name);
-  return true;
+  root.close();
+  SD.rmdir(folder_path);
+  Serial.println("[INFO] Remove folder: " + folder_path);
+  return;
 }

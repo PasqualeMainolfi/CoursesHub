@@ -17,10 +17,12 @@ int ecg_data;
 int num_samples = 4;
 int threshold = 450;
 float buffer_data = 0.0;
-int buffer[4];
+int buffer[16];
 int index = 0;
 //float start_time, end_time, elapsed_time, bpm;
 int prev_time = 0;
+
+int hor = 330;
 
 void setup() {
   Serial.begin(9600);
@@ -39,27 +41,26 @@ void loop() {
     ecg_data = analogRead(A0);   // valori di ampiezza della tensione di uscita dal sensore GSR
     buffer[index] = ecg_data;
 
+
     index += 1;
     index = index % num_samples;
-    if (!index) {
-      int values = 0;
-      for (int i = 0; i < num_samples; ++i) {
-        values += buffer[i];
-      }
-      values /= num_samples;
-
-      if (values >= threshold) {
-        int on_time = millis();
-        int spike_time = on_time - prev_time;
-
-        float sec = (float) spike_time / 1000.0;
-        float bpm = 60.0 / sec;
-        Serial.println(bpm);
-        prev_time = on_time;
-      }
-
-
+    int values = 0;
+    for (int i = 0; i < num_samples; ++i) {
+      values += buffer[i];
     }
+    values /= num_samples;
+    
+
+    if (values >= threshold) {
+      int on_time = millis();
+      int spike_time = on_time - prev_time;
+
+      float sec = (float) spike_time / 1000.0;
+      float bpm = 60.0 / sec;
+      // Serial.println(bpm);
+      prev_time = on_time;
+    }
+    Serial.write(values / 4);
   }
 
   delay(5);
