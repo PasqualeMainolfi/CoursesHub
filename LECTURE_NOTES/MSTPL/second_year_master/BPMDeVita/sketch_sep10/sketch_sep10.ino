@@ -23,6 +23,7 @@ int index = 0;
 int prev_time = 0;
 
 int hor = 330;
+uint16_t values = 0;
 
 void setup() {
   Serial.begin(9600);
@@ -36,20 +37,20 @@ void setup() {
 
 void loop() {
   if((digitalRead(10) == 1) || (digitalRead(11) == 1)) { //check if leads are removed
-    Serial.println("sensore non connesso ...");
+    // Serial.println("sensore non connesso ...");
+    values = 0;
   } else {
     ecg_data = analogRead(A0);   // valori di ampiezza della tensione di uscita dal sensore GSR
     buffer[index] = ecg_data;
 
-
     index += 1;
     index = index % num_samples;
-    int values = 0;
+    values = 0;
     for (int i = 0; i < num_samples; ++i) {
       values += buffer[i];
     }
-    values /= num_samples;
     
+    values /= num_samples;
 
     if (values >= threshold) {
       int on_time = millis();
@@ -60,8 +61,34 @@ void loop() {
       // Serial.println(bpm);
       prev_time = on_time;
     }
-    Serial.write(values / 4);
+
+    // byte low = v & 0xFF;
+    // byte high = (v >> 8) & 0xFF;
+
+    // Serial.write(low);
+    // Serial.write(high);
+    // Serial.println(values);
+
+    // Serial.print("LOW: ");
+    // Serial.println(low, HEX);
+    // Serial.print("HIGH: ");
+    // Serial.println(high, HEX);
   }
+  
+  // byte* v = (byte*) &values;
+  // Serial.write(v, 2);
+
+  byte low = values & 0xFF;
+  byte high = (values >> 8) & 0xFF;
+
+  Serial.write(low);
+  Serial.write(high);
+
+  low = (values + 50) & 0xFF;
+  high = ((values + 50) >> 8) & 0xFF;
+
+  Serial.write(low);
+  Serial.write(high);
 
   delay(5);
 }

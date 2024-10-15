@@ -6,14 +6,14 @@
 #define GSR_PLUS (8)
 #define GSR_MINUS (9)
 #define SAMPLE_TIME_MS (5)
-#define THRESHOLD (400)
+#define THRESHOLD (450)
 #define MAX_FOLDERS (100)
 #define MAX_FILES_FOR_FOLDER (30)
 
 
 String dir_name = "F";
 String data_name = "D";
-String ext = ".crd";
+String ext = ".CRD";
 
 Sd2Card card;
 SdVolume volume;
