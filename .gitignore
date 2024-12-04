@@ -2,3 +2,4 @@
 .DS_Store
 *.log
 LECTURE_NOTES/private_folder/
+*.venv
