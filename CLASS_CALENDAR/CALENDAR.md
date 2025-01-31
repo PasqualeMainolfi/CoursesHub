@@ -202,3 +202,36 @@
 |27|**12:00 - 14:00** MSTPL I B<br>**14:00 - 16:00** ACLE I B<br>**16:00 - 18:00** MSTPL II B|
 |26|**14:00 - 17:00** DMN<br>**17:00 - 20:00** DMN|
 |||
+
+|February||
+|:---|:---|
+|3|**12:00 - 14:00** MSTPL II B<br>**14:00 - 16:00** ACLE I B<br>**16:00 - 18:00** MSTPL I B|
+|5|**12:00 - 14:00** AMIPIMC II B<br>**14:00 - 16:00** ACLE I B<br>**16:00 - 18:00** AMIPIMC I B|
+|10|**12:00 - 14:00** SSDSP I T<br>**14:00 - 16:00** SSDSP II T<br>**16:00 - 18:00** ACLE III T
+|12|**12:00 - 14:00** MSTPL I T<br>**14:00 - 16:00** MSTPL II T<br>**16:00 - 18:00** MSTPL III T|
+|19|**14:00 - 17:00** DMN<br>**17:00 - 20:00** DMN|
+|24|**12:00 - 14:00** MSTPL II B<br>**14:00 - 16:00** ACLE I B<br>**16:00 - 18:00** MSTPL I B|
+|26|**12:00 - 14:00** AMIPIMC II B<br>**14:00 - 16:00** ACLE I B<br>**16:00 - 18:00** AMIPIMC I B|
+|||
+
+|March||
+|:---|:---|
+|10|**12:00 - 14:00** SSDSP I T<br>**14:00 - 16:00** SSDSP II T<br>**16:00 - 18:00** ACLE III T
+|12|**12:00 - 14:00** MSTPL I T<br>**14:00 - 16:00** MSTPL II T<br>**16:00 - 18:00** MSTPL III T|
+|15|**10:00 - 13:00** DMN<br>**13:00 - 16:00** DMN|
+|17|**12:00 - 14:00** MSTPL II B<br>**14:00 - 16:00** ACLE I B<br>**16:00 - 18:00** MSTPL I B|
+|19|**12:00 - 14:00** AMIPIMC II B<br>**14:00 - 16:00** SSDSP I B<br>**16:00 - 18:00** AMIPIMC I B|
+|24|**12:00 - 14:00** SSDSP I T<br>**14:00 - 16:00** SSDSP II T<br>**16:00 - 18:00** ACLE III T
+|26|**12:00 - 14:00** MSTPL I T<br>**14:00 - 16:00** MSTPL II T<br>**16:00 - 18:00** MSTPL III T|
+|||
+
+|April||
+|:---|:---|
+|7|**12:00 - 14:00** MSTPL II B<br>**14:00 - 16:00** SSDSP I B<br>**16:00 - 18:00** MSTPL I B|
+|9|**12:00 - 14:00** AMIPIMC II B<br>**14:00 - 16:00** SSDSP I B<br>**16:00 - 18:00** AMIPIMC I B|
+|14|**12:00 - 14:00** SSDSP I T<br>**14:00 - 16:00** SSDSP II T<br>**16:00 - 18:00** ACLE III T
+|16|**12:00 - 14:00** MSTPL I T<br>**14:00 - 16:00** MSTPL II T<br>**16:00 - 18:00** MSTPL III T|
+|26|**10:00 - 13:00** DMN<br>**13:00 - 16:00** DMN|
+|28|**12:00 - 14:00** MSTPL II B<br>**14:00 - 16:00** SSDSP I B<br>**16:00 - 18:00** MSTPL I B|
+|30|**12:00 - 14:00** AMIPIMC II B<br>**14:00 - 16:00** SSDSP I B<br>**16:00 - 18:00** AMIPIMC I B|
+|||
