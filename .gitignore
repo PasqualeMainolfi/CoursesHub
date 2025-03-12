@@ -3,3 +3,5 @@
 *.log
 LECTURE_NOTES/private_folder/
 *.venv
+LECTURE_NOTES/MSTPL/third_year_bachelor/2024-2025/nn/NeuralNetwork_genreClassification/genres/
+LECTURE_NOTES/MSTPL/third_year_bachelor/2024-2025/nn/NeuralNetwork_genreClassification/test_ridotto/

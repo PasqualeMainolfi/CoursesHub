@@ -1,12 +1,12 @@
 import mido
 import time
 
+
 def print_devices(d: list[str]):
     for i, device in enumerate(d):
-            print(f"[{i}]: {d}")
+            print(f"[{i}]: {device}")
 
 def main():
-
     d: str = ""
     while True:
         devices = mido.get_input_names();
