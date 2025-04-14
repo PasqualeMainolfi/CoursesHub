@@ -24,6 +24,7 @@ def main() -> None:
     for dev in range(p.get_device_count()):
         device = p.get_device_info_by_index(device_index=dev)
         print(f"[{dev}]: {device["name"]}")
+        print(device)
     
     index_device_in = int(input("INSERISCI L'INDICE DEL DEVICE IN: "))
     index_device_out = int(input("INSERISCI L'INDICE DEL DEVICE OUT: "))
@@ -31,12 +32,12 @@ def main() -> None:
     stream = p.open(
         format=pa.paFloat32,
         rate=FS,
-        channels=N_CHANNELS,
         frames_per_buffer=CHUNK,
         input=True,
         output=True,
         input_device_index=index_device_in,
-        output_device_index=index_device_out
+        output_device_index=index_device_out,
+        channels=N_CHANNELS
     )
     
     stream.start_stream()
