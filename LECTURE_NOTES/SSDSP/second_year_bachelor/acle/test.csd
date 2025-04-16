@@ -9,7 +9,6 @@ ksmps = 1
 nchnls = 2
 0dbfs = 1
 
-
 gifile = ftgen(0, 0, 0, -23, "coord.txt")
 
 instr 1
