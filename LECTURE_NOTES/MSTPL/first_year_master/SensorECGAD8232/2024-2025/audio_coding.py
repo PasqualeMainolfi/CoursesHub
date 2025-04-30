@@ -1,6 +1,8 @@
 # import section
 import pyaudio as pa
 import numpy as np
+import wave
+import pygame
 
 # main scripts
 
@@ -12,12 +14,21 @@ import numpy as np
   Msb Lsb     Pitch      Vel
 """
 
-CHUNK = 1024
+CHUNK = 512
 FS = 44100
 N_CHANNELS = 1
 
+PATH = "/Users/pm/AcaHub/AudioSamples/suzanne_mono.wav"
+
+pygame.init()
+
 # main function
 def main() -> None:
+     
+    pygame.display.set_caption('Spectrum Analyzer')
+    screen = pygame.display.set_mode((1280, 760))
+    
+    
     p = pa.PyAudio()
 
     print("[SYSTEM INFO]")
@@ -28,29 +39,45 @@ def main() -> None:
     
     index_device_in = int(input("INSERISCI L'INDICE DEL DEVICE IN: "))
     index_device_out = int(input("INSERISCI L'INDICE DEL DEVICE OUT: "))
+    
+    audio_file = wave.open(PATH, "r")
             
     stream = p.open(
-        format=pa.paFloat32,
-        rate=FS,
+        format=pa.get_format_from_width(audio_file.getsampwidth()),
+        rate=audio_file.getframerate(),
         frames_per_buffer=CHUNK,
-        input=True,
+        input=False,
         output=True,
         input_device_index=index_device_in,
         output_device_index=index_device_out,
-        channels=N_CHANNELS
+        channels=audio_file.getnchannels()
     )
     
     stream.start_stream()
     
     while True:
         try:
-            frame = stream.read(num_frames=CHUNK, exception_on_overflow=True)
-            decoded = np.frombuffer(frame, dtype=np.float32)
             
+            screen.fill("white")
+            
+            # frame = stream.read(num_frames=CHUNK, exception_on_overflow=True)
+            frame = audio_file.readframes(CHUNK)
+            decoded = np.frombuffer(frame, dtype=np.int16) / 32768.0
+            
+            fft = np.fft.rfft(decoded)
+            mag = np.abs(fft)
+            
+            step = screen.get_width() / fft.size
+            for i, m in enumerate(mag):
+                value = screen.get_height() - m * 100
+                pygame.draw.circle(screen, (0, 0, 0), pygame.Vector2(i * step, value), 3)
+                pygame.draw.line(screen, (0, 0, 0), pygame.Vector2(i * step, screen.get_height()), pygame.Vector2(i * step, value))
+                
             # ... -> DSP
             
-            encoded = decoded.tobytes()
-            stream.write(encoded)
+            stream.write(frame)
+            
+            pygame.display.flip()
         except KeyboardInterrupt:
             print("DONE!")
             break
@@ -58,6 +85,7 @@ def main() -> None:
     stream.stop_stream()
     stream.close()
     p.terminate()
+    audio_file.close()
     
             
         
