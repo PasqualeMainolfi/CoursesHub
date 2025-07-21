@@ -9,6 +9,13 @@ ksmps = 1
 nchnls = 2
 0dbfs = 1
 
+#define PATH # "/Users/pm/AcaHub/AudioSamples/suzanne_mono.wav" #
+
+gitable = ftgen(0, 0, 0, 1, $PATH, 0, 0, 0)
+gienv = ftgen(0, 0, 4097, 20, 2)
+
+seed(0)
+
 
 instr Master
 
@@ -49,14 +56,32 @@ endin
 
 
 
+instr 100 # quello che fate deve avere intenzione di funzionare!
+idur_sample = ftlen(gitable)
+iwin_lenght = sr * p3
+ioffset = random(0, idur_sample - iwin_lenght) / idur_sample
+idur_sec = (idur_sample / sr) * random(0.01, 5)
+asig = table(ioffset + phasor:a(1 / idur_sec), gitable, 1)
+aenv = table(phasor:a(1 / p3), gienv, 1)
+asig *= aenv
+
+outs(asig, asig)
+
+endin
+
+
 
 
 </CsInstruments>
 <CsScore>
 
-i "Master" 0 0.1 100 500 500
+; i "Master" 0 0.1 100 500 500
 ; i "Master" 0 0.1 100 5000 7000
 
+i 100 0 0.1
+i 100 .5 0.5
+i 100 .7 0.01
+i 100 1.2 0.7
 
 </CsScore>
 </CsoundSynthesizer>
