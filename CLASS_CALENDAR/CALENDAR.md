@@ -248,7 +248,7 @@
 |28|**12:00 - 14:00** MSTPL I T<br>**14:00 - 16:00** MSTPL II T<br>**16:00 - 18:00** MSTPL III T|
 |||
 
-|JUNE||
+|June||
 |:---|:---|
 |4|**14:00 - 17:00** DMN<br>**17:00 - 20:00** DMN|
 |9|**12:00 - 16:00** SSDSP I T<br>**16:00 - 18:00** SSDSP II T|
@@ -259,7 +259,7 @@
 |25|**12:00 - 14:00** MSTPL I T<br>**14:00 - 16:00** MSTPL II T<br>**16:00 - 18:00** MSTPL III T|
 |||
 
-|JULY||
+|July||
 |:---|:---|
 |2|**14:00 - 17:00** DMN<br>**17:00 - 20:00** DMN|
 |7|**12:00 - 14:00** MSTPL I T<br>**14:00 - 16:00** MSTPL II T<br>**16:00 - 18:00** MSTPL III T|
@@ -268,4 +268,22 @@
 |16|**12:00 - 14:00** AMIPIMC II B<br>**14:00 - 16:00** SSDSP I B<br>**16:00 - 18:00** AMIPIMC I B|
 |21|**12:00 - 14:00** SSDSP I T<br>**14:00 - 16:00** SSDSP II T<br>**16:00 - 18:00** ACLE III T|
 |23|**12:00 - 14:00** MSTPL I T<br>**14:00 - 16:00** MSTPL II T<br>**16:00 - 18:00** MSTPL III T|
+|||
+
+|September||
+|:---|:---|
+|3|**12:00 - 14:00** MSTPL I T<br>**14:00 - 16:00** MSTPL II B<br>**16:00 - 18:00** MSTPL II B|
+|8|**12:00 - 14:00** SSDSP I T<br>**14:00 - 16:00** MSTPL II B<br>**16:00 - 18:00** AMIPIMC II B|
+|15|**12:00 - 16:00** AMIPIMC II B|
+|17|**12:00 - 14:00** MSTPL I T|
+|22|**14:00 - 17:00** DMN<br>**17:00 - 20:00** DMN|
+|24|**12:00 - 14:00** SSDSP I T<br>**14:00 - 16:00** MSTPL I T<br>**16:00 - 18:00** MSTPL II T|
+|||
+
+|October||
+|:---|:---|
+|6|**12:00 - 14:00** AMIPIMC I B<br>**14:00 - 16:00** MSTPL I B|
+|8|**12:00 - 14:00** AMIPIMC I B<br>**14:00 - 16:00** MSTPL I B|
+|13|**12:00 - 14:00** AMIPIMC I B<br>**14:00 - 16:00** MSTPL I B|
+|15|**12:00 - 14:00** AMIPIMC I B<br>**14:00 - 16:00** MSTPL I B|
 |||
