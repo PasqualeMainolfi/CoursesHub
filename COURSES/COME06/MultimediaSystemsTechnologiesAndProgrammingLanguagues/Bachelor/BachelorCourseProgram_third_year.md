@@ -1,6 +1,6 @@
 # **Multimedia Systems, Technologies and Programming Languagues 3rd Year (Bachelor)**  
 
-[**⬅️ BACK HOME**](/README.md)
+[**⬅️ BACK TO HOME**](/README.md)
 
 |                          |     |
 |:-------------------------|:----|  

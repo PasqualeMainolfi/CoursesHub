@@ -1,6 +1,6 @@
 ## **Thesis: Procedures and Guidelines**  
 
-[**⬅️ BACK HOME**](/README.md)  
+[**⬅️ BACK TO HOME**](/README.md)  
 
 🇮🇹
 >**PRIMA DI TUTTO...**  

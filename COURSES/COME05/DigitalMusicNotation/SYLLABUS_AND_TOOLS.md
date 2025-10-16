@@ -1,6 +1,6 @@
 # **Digital Music Notation (COME/05)**  
 
-[**⬅️ BACK HOME**](/README.md)
+[**⬅️ BACK TO HOME**](/README.md)
 
 Welcome to the "*Digital Music Notation*" course!  
 

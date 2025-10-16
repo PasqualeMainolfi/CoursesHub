@@ -1,6 +1,6 @@
 # **Sampling, Synthesis and Digital Sound Processing 1st Year (Master)**  
 
-[**⬅️ BACK HOME**](/README.md) 
+[**⬅️ BACK TO HOME**](/README.md) 
 
 |                          |     |
 |:-------------------------|:----|  

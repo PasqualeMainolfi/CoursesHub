@@ -1,6 +1,6 @@
 # **Multimedia Systems, Technologies and Programming Languagues 1st Year (Master)**  
 
-[**⬅️ BACK HOME**](/README.md)
+[**⬅️ BACK TO HOME**](/README.md)
 
 |                          |     |
 |:-------------------------|:----|  

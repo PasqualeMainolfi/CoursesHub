@@ -1,6 +1,6 @@
 # **Digital Music Notation (Single Year)**
 
-[**⬅️ BACK HOME**](/README.md)
+[**⬅️ BACK TO HOME**](/README.md)
 
 |                          |     |
 |:-------------------------|:----|  

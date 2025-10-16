@@ -1,6 +1,6 @@
 # **Sampling Synthesis and Digital Sound Processing (COME/05)**  
 
-[**⬅️ BACK HOME**](/README.md)
+[**⬅️ BACK TO HOME**](/README.md)
 
 Welcome to the "*Sampling, Synthesis, and Digital Sound Processing*" course!  
 

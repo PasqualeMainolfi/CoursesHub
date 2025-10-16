@@ -1,6 +1,6 @@
 # **Audio and Music Information Processing for the Internet and Mobile Communication 1st Year (Master)**
 
-[**⬅️ BACK HOME**](/README.md)
+[**⬅️ BACK TO HOME**](/README.md)
 
 |                          |     |
 |:-------------------------|:----|  
