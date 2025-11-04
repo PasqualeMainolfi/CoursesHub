@@ -319,7 +319,7 @@ NOTE:
 |:---|:---|
 |8|NYD|
 |12|**12:00 - 14:00** MSTPL I MR<br>**14:00 - 16:00** PCELE I MR<br>**16:00 - 18:00** MSTPL II MR|
-|14|NYD|
+|14|**14:00 - 20:00** DMN|
 |19|**12:00 - 14:00** AMIPIMC I MR<br>**14:00 - 16:00** PCELE I MR<br>**16:00 - 18:00** AMIPIMC II MR|
 |21|NYD|
 |26|**12:00 - 14:00** MSTPL I MR<br>**14:00 - 16:00** PCELE I MR<br>**16:00 - 18:00** MSTPL II MR|
