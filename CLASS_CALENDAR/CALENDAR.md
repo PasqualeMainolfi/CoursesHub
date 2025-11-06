@@ -1,27 +1,27 @@
-# **Class Calendar**  
+# **Class Calendar**
 
 [**⬅️ BACK TO HOME**](/README.md)
 
-**[COME/05]** Sampling, Synthesis and Digital Sound Processing (SSDSP)  
-**[COME/05]** Digital Music Notation (DMN)  
-**[COME/06]** Multimedia Systems, Technologies and Programming Languages (MSTPL)  
-**[COME/06]** Audio and Music Information Processing for the Internet and Mobile Communication (AMIPIMC)  
+**[COME/05]** Sampling, Synthesis and Digital Sound Processing (SSDSP)
+**[COME/05]** Digital Music Notation (DMN)
+**[COME/06]** Multimedia Systems, Technologies and Programming Languages (MSTPL)
+**[COME/06]** Audio and Music Information Processing for the Internet and Mobile Communication (AMIPIMC)
 **[COME/01]** Performance and Control Environments for Live Electronics (PCELE)
 
-NOTE: 
+NOTE:
 
 - **NYD** stand for Not Yet Defined
 - **BH** stand for Bachelor (Triennio)
 - **MR** stand for Master (Biennio)
 
-> **YEAR**  
+> **YEAR**
 
-[2022/23](#202223)  
-[2023/24](#202324)  
-[2024/25](#202425)  
-[2025/26](#202526)  
+[2022/23](#202223)
+[2023/24](#202324)
+[2024/25](#202425)
+[2025/26](#202526)
 
-> ## **2022/23**  
+> ## **2022/23**
 
 |June||
 |:---|:---|
@@ -65,9 +65,9 @@ NOTE:
 |20|**14:00 - 16:00** SSDSP 1 BR<br>**14:00 - 16:00** SSDSP 2 BR|
 |21|**10:00 - 12:00** AMIPIMC 1 MR<br>**12:00 - 16:00** AMIPIMC 2 MR|
 |27|**14:00 - 16:00** AMIPIMC 1 MR<br>**16:00 - 20:00** AMIPIMC 2 MR|
-|||  
+|||
 
-> ## **2023/24**  
+> ## **2023/24**
 
 |November||
 |:---|:---|
@@ -184,7 +184,7 @@ NOTE:
 |26|**14:00 - 18:30** DMN|
 |||
 
-> ## **2024/25**  
+> ## **2024/25**
 
 |November||
 |:---|:---|
@@ -297,14 +297,14 @@ NOTE:
 |15|**12:00 - 14:00** AMIPIMC I MR<br>**14:00 - 16:00** MSTPL I MR|
 |||
 
-> ## **2025/26**  
+> ## **2025/26**
 
 |November||
 |:---|:---|
 |17|**12:00 - 14:00** SSDSP I BR<br>**14:00 - 16:00** SSDSP II BR<br>**16:00 - 18:00** PCELE III BR|
 |19|**12:00 - 14:00** MSTPL I BR<br>**14:00 - 16:00** MSTPL II BR<br>**16:00 - 18:00** MSTPL III BR|
 |24|**12:00 - 14:00** SSDSP I BR<br>**14:00 - 16:00** SSDSP II BR<br>**16:00 - 18:00** PCELE III BR|
-|25|**12:00 - 14:00** MSTPL I BR<br>**14:00 - 16:00** MSTPL II BR<br>**16:00 - 18:00** MSTPL III BR|
+|26|**12:00 - 14:00** MSTPL I BR<br>**14:00 - 16:00** MSTPL II BR<br>**16:00 - 18:00** MSTPL III BR|
 |||
 
 |Dicember||
