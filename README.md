@@ -66,6 +66,7 @@ You can view the lesson schedule/calendar by clicking on the academic year of th
 - [2022/23](/CLASS_CALENDAR/CALENDAR.md#202223)
 - [2023/24](/CLASS_CALENDAR/CALENDAR.md#202324)
 - [2024/25](/CLASS_CALENDAR/CALENDAR.md#202425)
+- [2025/26](/CLASS_CALENDAR/CALENDAR.md#202526)
 
 **Considera che le lezioni potrebbero subire modifiche. Qualunque modifica apportata sarà comunicata via Telegrama e/o via mail.**  
 **Please note that the lessons may be subject to changes. Any modifications will be communicated via Telegram and/or email.**
