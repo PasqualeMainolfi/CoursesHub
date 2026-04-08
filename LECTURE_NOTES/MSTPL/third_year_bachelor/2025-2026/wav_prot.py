@@ -72,3 +72,5 @@ with open("test.wav", 'wb') as f:
         y = 0.707 * math.sin(2 * math.pi * 440 * i / 44100)
         y_int = int(2 ** (BIT_DEPTH - 1) * y).to_bytes(2, "little", signed=True)
         f.write(y_int)
+
+    f.write(b"Staje luntana da stu core, a te volo cu o penziero: niente voglio e niente spero ca tenerte sempe a fianco a me! Si sicura e chist ammore comm i so sicuro e te...")
