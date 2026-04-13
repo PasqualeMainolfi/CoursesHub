@@ -1,29 +1,25 @@
-from dbap import DBAP, Point
+from dbap import DBAP, PolarPoint
 import matplotlib.pyplot as plt
 
+
 def main():
-    loudspeakers = [
-        Point(x=1.0, y=0.0),
-        Point(x=0.707, y=0.707),
-        Point(x=0, y=1.0),
-        Point(x=-0.707, y=0.707),
-        Point(x=-1.0, y=0.0),
-        Point(x=-0.707, y=0.707),
-        Point(x=0.0, y=-1.0),
-        Point(x=0.707, y=-0.707)
-    ]
+    spacer = DBAP(r=24)
+    loudspeakers = spacer.define_circle(n_loudspeakers=8)
+    spacer.set_loudspekear(lpos=loudspeakers, weights=None)
+    source = PolarPoint(rho=0.5, phi=125, mode="degree")
+    gains = spacer.get_gains(source=source)
 
     x = [p.x for p in loudspeakers]
     y = [p.y for p in loudspeakers]
 
-    plt.plot(x, y)
+    csource = source.to_cartesian()
+
+    for i, (xc, yc) in enumerate(zip(x, y)):
+        plt.scatter(xc, yc, c="k", marker="o")
+        plt.text(xc, yc, s=f"g = {gains[i]:.4}")
+        plt.scatter(csource.x, csource.y, c="r", marker="x", lw=1.5)
+        plt.plot([xc, csource.x], [yc, csource.y], lw=0.5, c="b")
     plt.show()
-
-
-    # spacer = DBAP(r=-24)
-
-
-
 
 
 if __name__ == "__main__":
