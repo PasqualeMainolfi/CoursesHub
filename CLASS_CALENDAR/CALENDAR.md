@@ -356,3 +356,39 @@ NOTE:
 |27|**12:00 - 14:00** AMIPIMC I MR<br>**14:00 - 16:00** SSDSP I MR<br>**16:00 - 18:00** AMIPIMC II MR|
 |29|**12:00 - 14:00** MSTPL I MR<br>**14:00 - 16:00** SSDSP I MR<br>**16:00 - 18:00** MSTPL II MR|
 |||
+
+|May||
+|:---|:---|
+|4|**12:00 - 14:00** MSTPL I MR<br>**14:00 - 16:00** SSDSP I MR<br>**16:00 - 18:00** MSTPL II MR|
+|6|NYD|
+|11|**12:00 - 14:00** MSTPL I MR<br>**14:00 - 16:00** SSDSP I MR<br>**16:00 - 18:00** MSTPL II MR|
+|13|NYD|
+|18|**12:00 - 14:00** MSTPL I MR<br>**14:00 - 16:00** SSDSP I MR<br>**16:00 - 18:00** MSTPL II MR|
+|20|**12:00 - 14:00** AMIPIMC I MR<br>**14:00 - 16:00** SSDSP I MR<br>**16:00 - 18:00** AMIPIMC II MR|
+|25|**12:00 - 14:00** SSDSP I BR<br>**14:00 - 16:00** SSDSP II BR<br>**16:00 - 18:00** PCELE III BR|
+|27|**12:00 - 14:00** MSTPL I BR<br>**14:00 - 16:00** MSTPL II BR<br>**16:00 - 18:00** MSTPL III BR|
+|||
+
+|June||
+|:---|:---|
+|1|**12:00 - 16:00** SSDSP I BR<br>**16:00 - 18:00** SSDSP II BR<br>**|
+|3|**12:00 - 14:00** AMIPIMC I MR<br>**14:00 - 16:00** PCELE I MR<br>**16:00 - 18:00** AMIPIMC II MR|
+|8|**12:00 - 16:00** SSDSP I BR<br>**16:00 - 18:00** SSDSP II BR<br>**|
+|10|**12:00 - 14:00** MSTPL I MR<br>**14:00 - 16:00** SSDSP I MR<br>**16:00 - 18:00** MSTPL II MR|
+|15|**12:00 - 14:00** AMIPIMC I MR<br>**14:00 - 16:00** SSDSP I MR<br>**16:00 - 18:00** AMIPIMC II MR|
+|17|**12:00 - 14:00** AMIPIMC I MR<br>**14:00 - 16:00** SSDSP I MR<br>**16:00 - 18:00** AMIPIMC II MR|
+|22|**12:00 - 14:00** SSDSP I BR<br>**14:00 - 16:00** SSDSP II BR<br>**16:00 - 18:00** PCELE III BR|
+|24|NYD|
+|29|**12:00 - 14:00** MSTPL I BR<br>**14:00 - 16:00** MSTPL II BR<br>**16:00 - 18:00** MSTPL III BR|
+|||
+
+|July||
+|:---|:---|
+|1|**12:00 - 14:00** AMIPIMC I MR<br>**14:00 - 16:00** SSDSP I MR<br>**16:00 - 18:00** AMIPIMC II MR|
+|6|**12:00 - 14:00** MSTPL I BR<br>**14:00 - 16:00** MSTPL II BR<br>**16:00 - 18:00** MSTPL III BR|
+|8|**12:00 - 14:00** MSTPL I MR<br>**14:00 - 16:00** SSDSP I MR<br>**16:00 - 18:00** MSTPL II MR|
+|13|**12:00 - 16:00** SSDSP I BR<br>**16:00 - 18:00** SSDSP II BR<br>**|
+|15|**12:00 - 14:00** AMIPIMC I MR<br>**14:00 - 16:00** SSDSP I MR<br>**16:00 - 18:00** AMIPIMC II MR|
+|20|**12:00 - 14:00** SSDSP I BR<br>**14:00 - 16:00** SSDSP II BR<br>**16:00 - 18:00** PCELE III BR|
+|22|**12:00 - 14:00** MSTPL I BR<br>**14:00 - 16:00** MSTPL II BR<br>**16:00 - 18:00** MSTPL III BR|
+|||
